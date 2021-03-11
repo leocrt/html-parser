@@ -4,16 +4,10 @@ import (
 	"bytes"
 	"fmt"
 	"io"
-	"regexp"
 	"strings"
 
 	"golang.org/x/net/html"
 )
-
-type Item struct {
-	number string
-	text   string
-}
 
 func GetFontMap(r io.Reader) (*map[string]string, error) {
 	doc, err := html.Parse(r)
@@ -24,22 +18,6 @@ func GetFontMap(r io.Reader) (*map[string]string, error) {
 	fontMapResult := dfs(doc, &fontMap)
 	return fontMapResult, nil
 }
-
-// func MapDocumentFonts(fontMap *map[string]string) *DocumentFonts {
-// 	var font DocumentFonts
-// 	for k, v := range *fontMap {
-// 		if strings.TrimSpace(k) == CHAPTER_FONT {
-// 			font.chapterBoldFont = v
-// 		}
-// 		if strings.TrimSpace(k) == ARTICLE_FONT {
-// 			font.articleFont = v
-// 		}
-// 		if strings.TrimSpace(k) == LINE_BREAK_FONT {
-// 			font.lineBreakFont = v
-// 		}
-// 	}
-// 	return &font
-// }
 
 func dfs(n *html.Node, fontMap *map[string]string) *map[string]string {
 	if n.Data == "style" {
@@ -76,11 +54,19 @@ func ParseToFont(r io.Reader, fonts DocumentFonts) {
 	if err != nil {
 		panic(err)
 	}
-	buf := &bytes.Buffer{}
-	GetLinesByFont(doc, fonts, buf)
+	mainBuf := &bytes.Buffer{}
+	writeTextToBuffer(doc, mainBuf)
+	chapters := GetChapters(mainBuf)
 
-	items := extractItemsFromBuffer(buf)
-	fmt.Println(items)
+	for i, chapter := range chapters {
+		if i == 0 || i == 5 {
+			fmt.Println(chapter.content)
+		}
+	}
+	// GetLinesByFont(doc, fonts, buf)
+
+	// // items := extractItemsFromBuffer(buf)
+	// // fmt.Println(items)
 }
 
 func GetLinesByFont(n *html.Node, font DocumentFonts, buf *bytes.Buffer) {
@@ -107,30 +93,12 @@ func collectText(n *html.Node, buf *bytes.Buffer) {
 	}
 }
 
-func extractItemsFromBuffer(buf *bytes.Buffer) []Item {
-	var items []Item
-	var item Item
-	for {
-		currentLine, err := buf.ReadString('\n')
-		if err != nil && err != io.EOF {
-			break
-		}
-		// Process the line here.
-		Matched, _ := regexp.MatchString("^[MDCLXVI]+", currentLine)
-		if Matched {
-			items = append(items, item)
-			re := regexp.MustCompile("^[MDCLXVI]+")
-			number := re.FindString(currentLine)
-			item = Item{
-				number: number,
-				text:   currentLine,
-			}
-		} else {
-			item.text = item.text + " " + currentLine
-		}
-		if err != nil {
-			break
-		}
+func writeTextToBuffer(n *html.Node, buf *bytes.Buffer) {
+	if n.Type == html.ElementNode &&
+		n.Data == "p" {
+		collectText(n, buf)
 	}
-	return items
+	for c := n.FirstChild; c != nil; c = c.NextSibling {
+		writeTextToBuffer(c, buf)
+	}
 }
