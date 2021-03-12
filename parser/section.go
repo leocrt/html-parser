@@ -6,13 +6,15 @@ import (
 	"regexp"
 )
 
-type Chapter struct {
-	number  string
-	content *bytes.Buffer
+type Section struct {
+	number       string
+	parentNumber string
+	content      *bytes.Buffer
 }
 
-func GetChapters(buf *bytes.Buffer) []Chapter {
-	var chapters []Chapter
+func GetSection(buf *bytes.Buffer) []Section {
+	var sections []Section
+	var number string
 	contentBuf := &bytes.Buffer{}
 	for {
 		currentLine, err := buf.ReadString('\n')
@@ -20,19 +22,19 @@ func GetChapters(buf *bytes.Buffer) []Chapter {
 			break
 		}
 		// Process the line here.
-		Matched, _ := regexp.MatchString("CAPÍTULO [MDCLXVI]+", currentLine)
+		Matched, _ := regexp.MatchString("Seção [MDCLXVI]+", currentLine)
 		if Matched {
 			if contentBuf.Len() == 0 {
 				contentBuf.WriteString(currentLine)
 				continue
 			} else {
-				re := regexp.MustCompile("CAPÍTULO [MDCLXVI]+")
-				number := re.FindString(currentLine)
-				chapter := Chapter{
+				re := regexp.MustCompile("Seção [MDCLXVI]+")
+				number = re.FindString(currentLine)
+				section := Section{
 					number:  number,
 					content: contentBuf,
 				}
-				chapters = append(chapters, chapter)
+				sections = append(sections, section)
 				contentBuf = &bytes.Buffer{}
 				contentBuf.WriteString(currentLine)
 				continue
@@ -41,9 +43,17 @@ func GetChapters(buf *bytes.Buffer) []Chapter {
 		if contentBuf.Len() > 0 {
 			contentBuf.WriteString(currentLine)
 		}
+		if err == io.EOF {
+			section := Section{
+				number:  number,
+				content: contentBuf,
+			}
+			sections = append(sections, section)
+			break
+		}
 		if err != nil {
 			break
 		}
 	}
-	return chapters
+	return sections
 }

@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"io"
+	"regexp"
 	"strings"
 
 	"golang.org/x/net/html"
@@ -57,16 +58,21 @@ func ParseToFont(r io.Reader, fonts DocumentFonts) {
 	mainBuf := &bytes.Buffer{}
 	writeTextToBuffer(doc, mainBuf)
 	chapters := GetChapters(mainBuf)
+	// sections := GetSection(chapters[0].content)
+	// for _, section := range sections {
+	// 	fmt.Println(section.content)
+	// }
 
-	for i, chapter := range chapters {
-		if i == 0 || i == 5 {
-			fmt.Println(chapter.content)
-		}
+	for _, chapter := range chapters {
+		// if i == 0 {
+		// 	fmt.Println(chapter.content)
+		// 	sections := GetSection(chapter.content)
+		// 	for _, section := range sections {
+		// 		fmt.Println(section.content)
+		// 	}
+		// }
+		fmt.Println(chapter.content)
 	}
-	// GetLinesByFont(doc, fonts, buf)
-
-	// // items := extractItemsFromBuffer(buf)
-	// // fmt.Println(items)
 }
 
 func GetLinesByFont(n *html.Node, font DocumentFonts, buf *bytes.Buffer) {
@@ -101,4 +107,12 @@ func writeTextToBuffer(n *html.Node, buf *bytes.Buffer) {
 	for c := n.FirstChild; c != nil; c = c.NextSibling {
 		writeTextToBuffer(c, buf)
 	}
+}
+
+func getTitleNumberFromLine(regex string, currentLine string) string {
+	re := regexp.MustCompile(regex)
+	chapterName := re.FindString(currentLine)
+	splittedChapterName := strings.Split(chapterName, " ")
+	number := splittedChapterName[1]
+	return number
 }
