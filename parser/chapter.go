@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"io"
 	"regexp"
-	"strings"
 )
 
 type Chapter struct {
@@ -12,9 +11,17 @@ type Chapter struct {
 	content *bytes.Buffer
 }
 
+func (c Chapter) getType() DivisionType {
+	return chapterDiv
+}
+
+func (c Chapter) getNumber() string {
+	return c.number
+}
+
 func GetChapters(buf *bytes.Buffer) []Chapter {
 	var chapters []Chapter
-	var number string
+	var chapterNumber string
 	contentBuf := &bytes.Buffer{}
 	for {
 		currentLine, err := buf.ReadString('\n')
@@ -26,22 +33,15 @@ func GetChapters(buf *bytes.Buffer) []Chapter {
 		if Matched {
 			if contentBuf.Len() == 0 {
 				contentBuf.WriteString(currentLine)
-				re := regexp.MustCompile("CAPÍTULO [MDCLXVI]+")
-				chapterName := re.FindString(currentLine)
-				splittedChapterName := strings.Split(chapterName, " ")
-				number = splittedChapterName[1]
+				chapterNumber = getTitleNumberFromLine("CAPÍTULO [MDCLXVI]+", currentLine)
 				continue
 			} else {
 				chapter := Chapter{
-					number:  number,
+					number:  chapterNumber,
 					content: contentBuf,
 				}
 				chapters = append(chapters, chapter)
-				re := regexp.MustCompile("CAPÍTULO [MDCLXVI]+")
-				chapterName := re.FindString(currentLine)
-				splittedChapterName := strings.Split(chapterName, " ")
-				number = splittedChapterName[1]
-
+				chapterNumber = getTitleNumberFromLine("CAPÍTULO [MDCLXVI]+", currentLine)
 				contentBuf = &bytes.Buffer{}
 				contentBuf.WriteString(currentLine)
 				continue
@@ -52,7 +52,7 @@ func GetChapters(buf *bytes.Buffer) []Chapter {
 		}
 		if err == io.EOF {
 			chapter := Chapter{
-				number:  number,
+				number:  chapterNumber,
 				content: contentBuf,
 			}
 			chapters = append(chapters, chapter)

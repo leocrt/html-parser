@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	f, err := os.Open("BIGIN44.html")
+	f, err := os.Open("BIGIN47.html")
 	if err != nil {
 		panic(err)
 	}

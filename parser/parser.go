@@ -10,6 +10,24 @@ import (
 	"golang.org/x/net/html"
 )
 
+type DivisionType string
+
+const (
+	chapterDiv   DivisionType = "chapter"
+	sectionDiv                = "section"
+	itemDiv                   = "item"
+	articleDiv                = "article"
+	paragraphDiv              = "paragraph"
+	pointDiv                  = "point"
+)
+
+type TextDivision interface {
+	getType() DivisionType
+	getNumber() string
+}
+
+type standardDivision struct{}
+
 func GetFontMap(r io.Reader) (*map[string]string, error) {
 	doc, err := html.Parse(r)
 	if err != nil {
@@ -58,21 +76,35 @@ func ParseToFont(r io.Reader, fonts DocumentFonts) {
 	mainBuf := &bytes.Buffer{}
 	writeTextToBuffer(doc, mainBuf)
 	chapters := GetChapters(mainBuf)
-	// sections := GetSection(chapters[0].content)
+
+	// sections := GetSection(chapters[0].content, chapters[0].number)
 	// for _, section := range sections {
 	// 	fmt.Println(section.content)
 	// }
 
 	for _, chapter := range chapters {
-		// if i == 0 {
-		// 	fmt.Println(chapter.content)
-		// 	sections := GetSection(chapter.content)
-		// 	for _, section := range sections {
-		// 		fmt.Println(section.content)
-		// 	}
-		// }
-		fmt.Println(chapter.content)
+		//fmt.Println(chapter.content)
+		hasSection := findSection(chapter.content)
+
+		if hasSection {
+			sections := GetSection(chapter.content, chapter)
+			for _, section := range sections {
+				//fmt.Printf("%+v\n", section)
+				articles := GetArticle(section.content, section)
+				for _, article := range articles {
+					fmt.Printf("%+v\n", article.content)
+				}
+			}
+		} else {
+			articles := GetArticle(chapter.content, chapter)
+			for _, article := range articles {
+				fmt.Printf("%+v\n", article.content)
+			}
+		}
 	}
+	// 	fmt.Println(chapter.number)
+	// 	fmt.Println(chapter.content)
+	// }
 }
 
 func GetLinesByFont(n *html.Node, font DocumentFonts, buf *bytes.Buffer) {
@@ -112,7 +144,7 @@ func writeTextToBuffer(n *html.Node, buf *bytes.Buffer) {
 func getTitleNumberFromLine(regex string, currentLine string) string {
 	re := regexp.MustCompile(regex)
 	chapterName := re.FindString(currentLine)
-	splittedChapterName := strings.Split(chapterName, " ")
-	number := splittedChapterName[1]
+	reNumber := regexp.MustCompile("([0-9]+|[MDCLXVI]+)")
+	number := reNumber.FindString(chapterName)
 	return number
 }
