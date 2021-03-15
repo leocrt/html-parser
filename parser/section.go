@@ -9,8 +9,10 @@ import (
 type Section struct {
 	number       string
 	content      *bytes.Buffer
-	parentType   DivisionType
-	parentNumber string
+	Label        string
+	ParentType   DivisionType
+	ParentNumber string
+	Articles     []Article
 }
 
 func (s Section) getType() DivisionType {
@@ -32,6 +34,7 @@ func findSection(b *bytes.Buffer) bool {
 func GetSection(buf *bytes.Buffer, parent TextDivision) []Section {
 	var sections []Section
 	var sectionNumber string
+	var sectionLabel string
 	contentBuf := &bytes.Buffer{}
 	for {
 		currentLine, err := buf.ReadString('\n')
@@ -44,16 +47,19 @@ func GetSection(buf *bytes.Buffer, parent TextDivision) []Section {
 			if contentBuf.Len() == 0 {
 				contentBuf.WriteString(currentLine)
 				sectionNumber = getTitleNumberFromLine("Seção [MDCLXVI]+", currentLine)
+				sectionLabel = getLabelFromLine("Seção [MDCLXVI]+", currentLine)
 				continue
 			} else {
 				section := Section{
+					Label:        sectionLabel,
 					number:       sectionNumber,
 					content:      contentBuf,
-					parentType:   parent.getType(),
-					parentNumber: parent.getNumber(),
+					ParentType:   parent.getType(),
+					ParentNumber: parent.getNumber(),
 				}
 				sections = append(sections, section)
 				sectionNumber = getTitleNumberFromLine("Seção [MDCLXVI]+", currentLine)
+				sectionLabel = getLabelFromLine("Seção [MDCLXVI]+", currentLine)
 				contentBuf = &bytes.Buffer{}
 				contentBuf.WriteString(currentLine)
 				continue
@@ -64,10 +70,11 @@ func GetSection(buf *bytes.Buffer, parent TextDivision) []Section {
 		}
 		if err == io.EOF {
 			section := Section{
+				Label:        sectionLabel,
 				number:       sectionNumber,
 				content:      contentBuf,
-				parentType:   parent.getType(),
-				parentNumber: parent.getNumber(),
+				ParentType:   parent.getType(),
+				ParentNumber: parent.getNumber(),
 			}
 			sections = append(sections, section)
 			break

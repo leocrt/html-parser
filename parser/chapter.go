@@ -7,8 +7,14 @@ import (
 )
 
 type Chapter struct {
-	number  string
-	content *bytes.Buffer
+	number   string
+	content  *bytes.Buffer
+	Label    string
+	Text     string
+	Order    int
+	Children []TextDivision
+	Articles []Article
+	Sections []Section
 }
 
 func (c Chapter) getType() DivisionType {
@@ -22,6 +28,7 @@ func (c Chapter) getNumber() string {
 func GetChapters(buf *bytes.Buffer) []Chapter {
 	var chapters []Chapter
 	var chapterNumber string
+	var chapterLabel string
 	contentBuf := &bytes.Buffer{}
 	for {
 		currentLine, err := buf.ReadString('\n')
@@ -34,14 +41,17 @@ func GetChapters(buf *bytes.Buffer) []Chapter {
 			if contentBuf.Len() == 0 {
 				contentBuf.WriteString(currentLine)
 				chapterNumber = getTitleNumberFromLine("CAPÍTULO [MDCLXVI]+", currentLine)
+				chapterLabel = getLabelFromLine("CAPÍTULO [MDCLXVI]+", currentLine)
 				continue
 			} else {
 				chapter := Chapter{
+					Label:   chapterLabel,
 					number:  chapterNumber,
 					content: contentBuf,
 				}
 				chapters = append(chapters, chapter)
 				chapterNumber = getTitleNumberFromLine("CAPÍTULO [MDCLXVI]+", currentLine)
+				chapterLabel = getLabelFromLine("CAPÍTULO [MDCLXVI]+", currentLine)
 				contentBuf = &bytes.Buffer{}
 				contentBuf.WriteString(currentLine)
 				continue
@@ -52,6 +62,7 @@ func GetChapters(buf *bytes.Buffer) []Chapter {
 		}
 		if err == io.EOF {
 			chapter := Chapter{
+				Label:   chapterLabel,
 				number:  chapterNumber,
 				content: contentBuf,
 			}

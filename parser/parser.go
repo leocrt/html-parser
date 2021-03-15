@@ -2,6 +2,7 @@ package parser
 
 import (
 	"bytes"
+	"encoding/json"
 	"fmt"
 	"io"
 	"regexp"
@@ -82,29 +83,46 @@ func ParseToFont(r io.Reader, fonts DocumentFonts) {
 	// 	fmt.Println(section.content)
 	// }
 
-	for _, chapter := range chapters {
+	for chapIdx, chapter := range chapters {
 		//fmt.Println(chapter.content)
 		hasSection := findSection(chapter.content)
-
+		children := make([]TextDivision, 0)
 		if hasSection {
+			str1 := regexp.MustCompile("Seção [MDCLXVI]+")
+			chapters[chapIdx].Text = str1.Split(chapter.content.String(), 2)[0]
+			chapters[chapIdx].Order = chapIdx + 1
 			sections := GetSection(chapter.content, chapter)
-			for _, section := range sections {
-				//fmt.Printf("%+v\n", section)
+			for sectIdx, section := range sections {
 				articles := GetArticle(section.content, section)
-				for _, article := range articles {
-					fmt.Printf("%+v\n", article.content)
+				sections[sectIdx].Articles = articles
+				for artIdx, article := range articles {
+					hasParagraphs := findParagraph(article.content)
+					if hasParagraphs {
+						paragraphs := GetParagraph(article.content, article)
+						articles[artIdx].Paragraphs = paragraphs
+					}
 				}
+				children = append(children, sections[sectIdx])
 			}
+			chapters[chapIdx].Children = children
 		} else {
 			articles := GetArticle(chapter.content, chapter)
-			for _, article := range articles {
-				fmt.Printf("%+v\n", article.content)
+			for artIdx, article := range articles {
+				hasParagraphs := findParagraph(article.content)
+				if hasParagraphs {
+					paragraphs := GetParagraph(article.content, article)
+					articles[artIdx].Paragraphs = paragraphs
+				}
+				children = append(children, articles[artIdx])
 			}
+			chapters[chapIdx].Children = children
 		}
 	}
-	// 	fmt.Println(chapter.number)
-	// 	fmt.Println(chapter.content)
-	// }
+	b, err := json.Marshal(chapters)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(string(b))
 }
 
 func GetLinesByFont(n *html.Node, font DocumentFonts, buf *bytes.Buffer) {
@@ -142,9 +160,23 @@ func writeTextToBuffer(n *html.Node, buf *bytes.Buffer) {
 }
 
 func getTitleNumberFromLine(regex string, currentLine string) string {
+	if strings.Contains(currentLine, "CAPÍTULO") {
+		re := regexp.MustCompile(regex)
+		chapterName := re.FindString(currentLine)
+		splittedChapterName := strings.Split(chapterName, " ")
+		reNumber := regexp.MustCompile("([MDCLXVI]+)")
+		number := reNumber.FindString(splittedChapterName[1])
+		return number
+	}
 	re := regexp.MustCompile(regex)
 	chapterName := re.FindString(currentLine)
 	reNumber := regexp.MustCompile("([0-9]+|[MDCLXVI]+)")
 	number := reNumber.FindString(chapterName)
 	return number
+}
+
+func getLabelFromLine(regex string, currentLine string) string {
+	re := regexp.MustCompile(regex)
+	label := re.FindString(currentLine)
+	return label
 }
