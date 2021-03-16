@@ -1,0 +1,188 @@
+[
+   {
+      "Label":"CAPÍTULO I",
+      "Text":"DAS DISPOSIÇÕES INICIAIS",
+      "Order":1,
+      "Children":[
+         {
+            "Label":"Seção I",
+            "Order":1,
+            "Text":"Do objetivo",
+            "Children":[
+               {
+                  "Label":"Art. 1",
+                  "Order":1,
+                  "Text":"Esta Instrução Normativa possui o objetivo de adotar as diretrizes de Boas  Práticas  de  Fabricação  de  Medicamentos  Aerossóis  Pressurizados  Dosimetrados  para  Inalação do Esquema de Cooperação em Inspeção Farmacêutica, PIC/S, como requisitos  complementares  a  serem  seguidos  na  fabricação  de  medicamentos  aerossóis  pressurizados  dosimetrados  para  inalação,  em  adição  às  Diretrizes  Gerais  de  Boas  Práticas de Fabricação de Medicamentos."
+               }
+            ]
+         },
+         {
+            "Label":"Seção II",
+            "Order":2,
+            "Text":"Da abrangência",
+            "Children":[
+               {
+                  "Label":"Art. 2",
+                  "Order":1,
+                  "Text":"Esta Instrução Normativa se aplica às empresas que realizam as operações  envolvidas na fabricação de Medicamentos Aerossóis Pressurizados Dosimetrados para  Inalação, incluindo os medicamentos experimentais."
+               }
+            ]
+         },
+         {
+            "Label":"Seção III",
+            "Order":3,
+            "Text":"Das definições",
+            "Children":[
+               {
+                  "Label":"Art. 3",
+                  "Order":1,
+                  "Text":"Para efeito desta Instrução Normativa, são adotadas as seguintes definições:",
+                  "Children":[
+                     {
+                        "Label":"I",
+                        "Order":1,
+                        "Text":"processo de envase em dois ciclos (envase pressurizado): Processo de envase em  que  o  ingrediente  ativo  é  suspenso  em  um  propelente  de  alto  ponto  de  ebulição,  em  seguida,  o  volume  de  envase  desta  suspensão  é  envasado  no  recipiente,  a  válvula  é  cravada e um outro propelente de baixo ponto de ebulição é injetado através da haste da válvula para formar o produto terminado. A suspensão do ingrediente ativo no propelente é mantida fria para reduzir a perda por evaporação"
+                     },
+                     {
+                        "Label":"II",
+                        "Order":2,
+                        "Text":"processo de envase em um ciclo (envase a frio): Processo de envase em que o ingrediente ativo é suspenso em uma mistura de propelentes e mantido sob alta pressão e/ou a baixa temperatura. A suspensão é envasada diretamente no recipiente, em um único ciclo."
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "Label":"CAPÍTULO II",
+      "Text":"DAS DISPOSIÇÕES GERAIS",
+      "Order":2,
+      "Children":[
+         {
+            "Label":"Art. 4",
+            "Order":1,
+            "Text":" A  fabricação  de  Medicamentos  Aerossóis  Pressurizados  Dosimetrados  requer provisões específicas relacionadas a natureza particular desta forma farmacêutica."
+         },
+         {
+            "Label":"Art. 5",
+            "Order":2,
+            "Text":" A  fabricação  deve  ocorrer  em  condições  que  minimizem  a  contaminação  microbiana e particulada."
+         },
+         {
+            "Label":"Art. 6",
+            "Order":3,
+            "Text":" A  garantia  da  qualidade  dos  componentes  da  válvula  e,  no  caso  de  suspensões, a uniformidade do produto, deve ser prioridade neste tipo de processo."
+         }
+      ]
+   },
+   {
+      "Label":"CAPÍTULO III",
+      "Text":"DAS INSTALAÇÕES E EQUIPAMENTOS",
+      "Order":3,
+      "Children":[
+         {
+            "Label":"Art. 7",
+            "Order":1,
+            "Text":" A  fabricação  e  o  envase  devem,  sempre  que  possível,  ser  realizadas  em  sistemas fechados de produção."
+         },
+         {
+            "Label":"Art. 8",
+            "Order":2,
+            "Text":"Quando produtos ou componentes limpos forem expostos, a área deve ser  insuflada com ar filtrado, cumprindo com os requisitos de, pelo menos, um ambiente Grau  D, que deve ser acessado através de antecâmaras com controle de pressão."
+         }
+      ]
+   },
+   {
+      "Label":"CAPÍTULO IV",
+      "Text":"DA PRODUÇÃO E CONTROLE DE QUALIDADE",
+      "Order":4,
+      "Children":[
+         {
+            "Label":"Art. 9",
+            "Order":1,
+            "Text":" As  Especificações,  amostragem  e  testes  das  válvulas  de  dosagem  para  aerossóis devem ser apropriados, considerando a criticidade e o detalhamento técnico e  funcional destes dispositivos."
+         },
+         {
+            "Label":"Art. 10",
+            "Order":2,
+            "Text":". A auditoria do sistema de Garantia de Qualidade dos fabricantes da válvula  deve ser realizada."
+         },
+         {
+            "Label":"Art. 11",
+            "Order":3,
+            "Text":". Todos os fluidos, tais como os propelentes gasosos ou líquidos, devem ser  filtrados para remoção de partículas maiores que 0,2µm.",
+            "Children":[
+               {
+                  "Label":"Parágrafo único.",
+                  "Order":1,
+                  "Text":"Pode ser necessária uma filtração adicional imediatamente antes  do ponto de envase."
+               }
+            ]
+         },
+         {
+            "Label":"Art. 12",
+            "Order":4,
+            "Text":"Os recipientes e as válvulas devem ser limpos por meio de um procedimento  validado, apropriado à utilização do produto, para assegurar a ausência de contaminantes,tais como auxiliares de fabricação como, por exemplo, lubrificantes, ou contaminantes  microbiológicos indesejáveis.",
+            "Children":[
+               {
+                  "Label":"§1",
+                  "Order":1,
+                  "Text":"Após a limpeza, as válvulas devem ser mantidas limpas em recipientes fechados  e devem ser tomadas precauções para que não ocorra nenhuma contaminação durante o  manuseio posterior como, por exemplo, na amostragem."
+               },
+               {
+                  "Label":"§2",
+                  "Order":2,
+                  "Text":"Os recipientes devem ser fornecidos para a linha de envase em um estado limpo  ou limpos em linha imediatamente antes do envase."
+               }
+            ]
+         },
+         {
+            "Label":"Art. 13",
+            "Order":5,
+            "Text":". Devem ser tomadas as medidas necessárias para a garantia da uniformidade  das suspensões no ponto de envase, durante todo o processo de envase."
+         },
+         {
+            "Label":"Art. 14",
+            "Order":6,
+            "Text":". Sempre que for utilizado o processo de envase de dois estágios, é necessário  garantir que ambos estágios tenham o peso correto para se obter a composição correta.",
+            "Children":[
+               {
+                  "Label":"Parágrafo único.",
+                  "Order":1,
+                  "Text":"Para este propósito, a verificação de 100% do peso em cada estágio  pode ser necessária."
+               }
+            ]
+         },
+         {
+            "Label":"Art. 15",
+            "Order":7,
+            "Text":".Os  controles  após  o  envase  devem  garantir  a  ausência  de  vazamentos  indevidos.",
+            "Children":[
+               {
+                  "Label":"Parágrafo único.",
+                  "Order":1,
+                  "Text":"Qualquer teste de vazamento deve ser realizado de maneira a evitar  a contaminação microbiana ou a umidade residual."
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "Label":"CAPÍTULO IV",
+      "Text":"DAS DISPOSIÇOES FINAIS",
+      "Order":5,
+      "Children":[
+         {
+            "Label":"Art. 16",
+            "Order":1,
+            "Text":"O descumprimento das  disposições  contidas  nesta  Instrução  Normativa  constitui infração sanitária, nos termos da Lei nº. 6.437, de 20 de agosto de 1977, sem  prejuízo das responsabilidades civil, administrativa e penal cabíveis."
+         },
+         {
+            "Label":"Art. 17",
+            "Order":2,
+            "Text":"Esta Instrução Normativa entra em vigor 45 (quarenta e cinco) dias após  sua publicação."
+         }
+      ]
+   }
+]

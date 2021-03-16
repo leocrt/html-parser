@@ -54,6 +54,7 @@ func GetItems(buf *bytes.Buffer) []Item {
 					Label:   itemLabel,
 					number:  itemNumber,
 					content: contentBuf,
+					Text:    contentBuf.String(),
 				}
 				items = append(items, item)
 				itemNumber = getTitleNumberFromLine(itemRegex, currentLine)
@@ -71,6 +72,7 @@ func GetItems(buf *bytes.Buffer) []Item {
 				Label:   itemLabel,
 				number:  itemNumber,
 				content: contentBuf,
+				Text:    contentBuf.String(),
 			}
 			items = append(items, item)
 			break

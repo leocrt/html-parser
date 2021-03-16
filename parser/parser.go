@@ -14,12 +14,13 @@ import (
 type DivisionType string
 
 const (
-	chapterDiv   DivisionType = "chapter"
-	sectionDiv                = "section"
-	itemDiv                   = "item"
-	articleDiv                = "article"
-	paragraphDiv              = "paragraph"
-	pointDiv                  = "point"
+	chapterDiv    DivisionType = "chapter"
+	sectionDiv                 = "section"
+	subsectionDiv              = "subssection"
+	itemDiv                    = "item"
+	articleDiv                 = "article"
+	paragraphDiv               = "paragraph"
+	pointDiv                   = "point"
 )
 
 type TextDivision interface {
@@ -87,39 +88,58 @@ func ParseToFont(r io.Reader, fonts DocumentFonts) {
 
 	for chapIdx, chapter := range chapters {
 		hasSection := findSection(chapter.content)
-		chapterChildren := make([]TextDivision, 0)
 
+		//Chapter's children can be sections or articles
+		chapterChildren := make([]TextDivision, 0)
 		if hasSection {
+			//set text(before the first section) and order of chapter
 			chapters[chapIdx].Text = selectTextBetweenTwoRegex(chapterRegex, sectionRegex, chapter.content.String())
 			chapters[chapIdx].Order = chapIdx + 1
+
 			sections := GetSection(chapter.content, chapter)
 			for sectIdx, section := range sections {
+				//set text(before the first section) and order of section
 				sections[sectIdx].Text = selectTextBetweenTwoRegex(sectionRegex, articleRegex, section.content.String())
-				articles := GetArticle(section.content, section)
-				sections[sectIdx].Children = articles
-
 				sections[sectIdx].Order = sectIdx + 1
+
+				articles := GetArticle(section.content, section)
+				//section's children are always articles, that is why it's directly assigned
+				sections[sectIdx].Children = articles
 
 				//Loop through articles inside sessions
 				for artIdx, article := range articles {
+					//Article's children can be paragraphs or items
 					articleChildren := make([]TextDivision, 0)
 
-					articles[artIdx].Text = selectTextBetweenTwoRegex(articleRegex, paragraphRegex, article.content.String())
-					articles[artIdx].Order = artIdx + 1
 					hasParagraphs := findParagraph(article.content)
 					if hasParagraphs {
+						//set text(before the first paragraph or item) and order of article
+						articles[artIdx].Text = selectTextBetweenTwoRegex(articleRegex, paragraphRegex, article.content.String())
+						articles[artIdx].Order = artIdx + 1
+
 						paragraphs := GetParagraph(article.content, article)
 						for paragIdx, paragraph := range paragraphs {
 							paragraphs[paragIdx].Text = selectTextBetweenTwoRegex(paragraphRegex, itemRegex, paragraph.content.String())
 							paragraphs[paragIdx].Order = paragIdx + 1
+							hasItems := findItems(paragraph.content)
+							if hasItems {
+								items := GetItems(paragraph.content)
+								//Paragraph's children are always items, that is why it's directly assigned
+								paragraphs[paragIdx].Children = items
+							}
 							articleChildren = append(articleChildren, paragraphs[paragIdx])
 						}
 						articles[artIdx].Children = articleChildren
 					} else {
+						//set text(before the first paragraph or item) and order of article
+						articles[artIdx].Text = selectTextBetweenTwoRegex(articleRegex, itemRegex, article.content.String())
+						articles[artIdx].Order = artIdx + 1
+						//If articles does not have paragraphs
 						hasItems := findItems(article.content)
 						if hasItems {
 							items := GetItems(article.content)
 							for itemIdx, _ := range items {
+								items[itemIdx].Order = itemIdx + 1
 								articleChildren = append(articleChildren, items[itemIdx])
 							}
 							articles[artIdx].Children = articleChildren
@@ -131,21 +151,33 @@ func ParseToFont(r io.Reader, fonts DocumentFonts) {
 			chapters[chapIdx].Children = chapterChildren
 
 		} else {
+			//If chapter does not have section
+			//set text(before the first article) and order of chapter
 			chapters[chapIdx].Text = selectTextBetweenTwoRegex(chapterRegex, articleRegex, chapter.content.String())
 			chapters[chapIdx].Order = chapIdx + 1
-			articles := GetArticle(chapter.content, chapter)
 
+			articles := GetArticle(chapter.content, chapter)
 			for artIdx, article := range articles {
-				articleChildren := make([]TextDivision, 0)
+				//set text(before the first paragraph or item) and order of article
 				articles[artIdx].Text = selectTextBetweenTwoRegex(articleRegex, paragraphRegex, article.content.String())
 				articles[artIdx].Order = artIdx + 1
-				hasParagraphs := findParagraph(article.content)
 
+				//Article's children can be paragraphs or items
+				articleChildren := make([]TextDivision, 0)
+				hasParagraphs := findParagraph(article.content)
 				if hasParagraphs {
 					paragraphs := GetParagraph(article.content, article)
 					for paragIdx, paragraph := range paragraphs {
+						//set text(before the first item) and order of paragraph
 						paragraphs[paragIdx].Text = selectTextBetweenTwoRegex(paragraphRegex, itemRegex, paragraph.content.String())
 						paragraphs[paragIdx].Order = paragIdx + 1
+
+						hasItems := findItems(paragraph.content)
+						if hasItems {
+							items := GetItems(paragraph.content)
+							//Paragraph's children are always items, that is why it's directly assigned
+							paragraphs[paragIdx].Children = items
+						}
 						articleChildren = append(articleChildren, paragraphs[paragIdx])
 					}
 					articles[artIdx].Children = articleChildren
@@ -154,6 +186,7 @@ func ParseToFont(r io.Reader, fonts DocumentFonts) {
 					if hasItems {
 						items := GetItems(article.content)
 						for itemIdx, _ := range items {
+							items[itemIdx].Order = itemIdx + 1
 							articleChildren = append(articleChildren, items[itemIdx])
 						}
 						articles[artIdx].Children = articleChildren

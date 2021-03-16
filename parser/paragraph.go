@@ -10,6 +10,7 @@ type Paragraph struct {
 	Label        string
 	Order        int
 	Text         string
+	Children     []Item
 	number       string
 	content      *bytes.Buffer
 	parentType   DivisionType
