@@ -70,6 +70,13 @@ func parseCssToFont(css string, fontMap *map[string]string) *map[string]string {
 }
 
 func ParseToFont(r io.Reader, fonts DocumentFonts) {
+	//Regexes to find each text division
+	chapterRegex := "CAPÍTULO [MDCLXVI]+"
+	sectionRegex := "Seção [MDCLXVI]+"
+	articleRegex := "(Art.( )*[0-9]+)"
+	paragraphRegex := "(Parágrafo( )+único.)|(§( )*[1-9]+)"
+	itemRegex := "[MDCLXVI]+( )*-"
+
 	doc, err := html.Parse(r)
 	if err != nil {
 		panic(err)
@@ -78,44 +85,83 @@ func ParseToFont(r io.Reader, fonts DocumentFonts) {
 	writeTextToBuffer(doc, mainBuf)
 	chapters := GetChapters(mainBuf)
 
-	// sections := GetSection(chapters[0].content, chapters[0].number)
-	// for _, section := range sections {
-	// 	fmt.Println(section.content)
-	// }
-
 	for chapIdx, chapter := range chapters {
-		//fmt.Println(chapter.content)
 		hasSection := findSection(chapter.content)
-		children := make([]TextDivision, 0)
+		chapterChildren := make([]TextDivision, 0)
+
 		if hasSection {
-			str1 := regexp.MustCompile("Seção [MDCLXVI]+")
-			chapters[chapIdx].Text = str1.Split(chapter.content.String(), 2)[0]
+			chapters[chapIdx].Text = selectTextBetweenTwoRegex(chapterRegex, sectionRegex, chapter.content.String())
 			chapters[chapIdx].Order = chapIdx + 1
 			sections := GetSection(chapter.content, chapter)
 			for sectIdx, section := range sections {
+				sections[sectIdx].Text = selectTextBetweenTwoRegex(sectionRegex, articleRegex, section.content.String())
 				articles := GetArticle(section.content, section)
-				sections[sectIdx].Articles = articles
+				sections[sectIdx].Children = articles
+
+				sections[sectIdx].Order = sectIdx + 1
+
+				//Loop through articles inside sessions
 				for artIdx, article := range articles {
+					articleChildren := make([]TextDivision, 0)
+
+					articles[artIdx].Text = selectTextBetweenTwoRegex(articleRegex, paragraphRegex, article.content.String())
+					articles[artIdx].Order = artIdx + 1
 					hasParagraphs := findParagraph(article.content)
 					if hasParagraphs {
 						paragraphs := GetParagraph(article.content, article)
-						articles[artIdx].Paragraphs = paragraphs
+						for paragIdx, paragraph := range paragraphs {
+							paragraphs[paragIdx].Text = selectTextBetweenTwoRegex(paragraphRegex, itemRegex, paragraph.content.String())
+							paragraphs[paragIdx].Order = paragIdx + 1
+							articleChildren = append(articleChildren, paragraphs[paragIdx])
+						}
+						articles[artIdx].Children = articleChildren
+					} else {
+						hasItems := findItems(article.content)
+						if hasItems {
+							items := GetItems(article.content)
+							for itemIdx, _ := range items {
+								articleChildren = append(articleChildren, items[itemIdx])
+							}
+							articles[artIdx].Children = articleChildren
+						}
 					}
 				}
-				children = append(children, sections[sectIdx])
+				chapterChildren = append(chapterChildren, sections[sectIdx])
 			}
-			chapters[chapIdx].Children = children
+			chapters[chapIdx].Children = chapterChildren
+
 		} else {
+			chapters[chapIdx].Text = selectTextBetweenTwoRegex(chapterRegex, articleRegex, chapter.content.String())
+			chapters[chapIdx].Order = chapIdx + 1
 			articles := GetArticle(chapter.content, chapter)
+
 			for artIdx, article := range articles {
+				articleChildren := make([]TextDivision, 0)
+				articles[artIdx].Text = selectTextBetweenTwoRegex(articleRegex, paragraphRegex, article.content.String())
+				articles[artIdx].Order = artIdx + 1
 				hasParagraphs := findParagraph(article.content)
+
 				if hasParagraphs {
 					paragraphs := GetParagraph(article.content, article)
-					articles[artIdx].Paragraphs = paragraphs
+					for paragIdx, paragraph := range paragraphs {
+						paragraphs[paragIdx].Text = selectTextBetweenTwoRegex(paragraphRegex, itemRegex, paragraph.content.String())
+						paragraphs[paragIdx].Order = paragIdx + 1
+						articleChildren = append(articleChildren, paragraphs[paragIdx])
+					}
+					articles[artIdx].Children = articleChildren
+				} else {
+					hasItems := findItems(article.content)
+					if hasItems {
+						items := GetItems(article.content)
+						for itemIdx, _ := range items {
+							articleChildren = append(articleChildren, items[itemIdx])
+						}
+						articles[artIdx].Children = articleChildren
+					}
 				}
-				children = append(children, articles[artIdx])
+				chapterChildren = append(chapterChildren, articles[artIdx])
 			}
-			chapters[chapIdx].Children = children
+			chapters[chapIdx].Children = chapterChildren
 		}
 	}
 	b, err := json.Marshal(chapters)
@@ -179,4 +225,14 @@ func getLabelFromLine(regex string, currentLine string) string {
 	re := regexp.MustCompile(regex)
 	label := re.FindString(currentLine)
 	return label
+}
+
+func selectTextBetweenTwoRegex(startReg string, finishRegex string, text string) string {
+	regStart := regexp.MustCompile(startReg)
+	regFinish := regexp.MustCompile(finishRegex)
+	text1 := regFinish.Split(text, 2)[0]
+	text2 := regStart.Split(text1, 2)[1]
+	result := strings.ReplaceAll(text2, "\n", " ")
+	trimmedResult := strings.TrimSpace(result)
+	return trimmedResult
 }

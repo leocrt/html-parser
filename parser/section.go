@@ -10,9 +10,11 @@ type Section struct {
 	number       string
 	content      *bytes.Buffer
 	Label        string
-	ParentType   DivisionType
-	ParentNumber string
-	Articles     []Article
+	Order        int
+	Text         string
+	parentType   DivisionType
+	parentNumber string
+	Children     []Article
 }
 
 func (s Section) getType() DivisionType {
@@ -54,8 +56,8 @@ func GetSection(buf *bytes.Buffer, parent TextDivision) []Section {
 					Label:        sectionLabel,
 					number:       sectionNumber,
 					content:      contentBuf,
-					ParentType:   parent.getType(),
-					ParentNumber: parent.getNumber(),
+					parentType:   parent.getType(),
+					parentNumber: parent.getNumber(),
 				}
 				sections = append(sections, section)
 				sectionNumber = getTitleNumberFromLine("Seção [MDCLXVI]+", currentLine)
@@ -73,8 +75,8 @@ func GetSection(buf *bytes.Buffer, parent TextDivision) []Section {
 				Label:        sectionLabel,
 				number:       sectionNumber,
 				content:      contentBuf,
-				ParentType:   parent.getType(),
-				ParentNumber: parent.getNumber(),
+				parentType:   parent.getType(),
+				parentNumber: parent.getNumber(),
 			}
 			sections = append(sections, section)
 			break

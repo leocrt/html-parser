@@ -7,30 +7,73 @@ import (
 )
 
 type Item struct {
-	number string
-	text   string
+	Label   string
+	Order   int
+	number  string
+	Text    string
+	content *bytes.Buffer
 }
 
-func extractItemsFromBuffer(buf *bytes.Buffer) []Item {
+func (i Item) getType() DivisionType {
+	return itemDiv
+}
+
+func (i Item) getNumber() string {
+	return i.number
+}
+
+func findItems(b *bytes.Buffer) bool {
+	Matched, err := regexp.MatchString("[MDCLXVI]+( )*-", b.String())
+	if err != nil {
+		panic(err)
+	}
+	return Matched
+}
+
+func GetItems(buf *bytes.Buffer) []Item {
 	var items []Item
-	var item Item
+	var itemNumber string
+	var itemLabel string
+	contentBuf := &bytes.Buffer{}
+	itemRegex := "[MDCLXVI]+( )*-"
 	for {
 		currentLine, err := buf.ReadString('\n')
 		if err != nil && err != io.EOF {
 			break
 		}
 		// Process the line here.
-		Matched, _ := regexp.MatchString("^[MDCLXVI]+", currentLine)
+		Matched, _ := regexp.MatchString(itemRegex, currentLine)
 		if Matched {
-			items = append(items, item)
-			re := regexp.MustCompile("^[MDCLXVI]+")
-			number := re.FindString(currentLine)
-			item = Item{
-				number: number,
-				text:   currentLine,
+			if contentBuf.Len() == 0 {
+				contentBuf.WriteString(currentLine)
+				itemNumber = getTitleNumberFromLine(itemRegex, currentLine)
+				itemLabel = getLabelFromLine(itemRegex, currentLine)
+				continue
+			} else {
+				item := Item{
+					Label:   itemLabel,
+					number:  itemNumber,
+					content: contentBuf,
+				}
+				items = append(items, item)
+				itemNumber = getTitleNumberFromLine(itemRegex, currentLine)
+				itemLabel = getLabelFromLine(itemRegex, currentLine)
+				contentBuf = &bytes.Buffer{}
+				contentBuf.WriteString(currentLine)
+				continue
 			}
-		} else {
-			item.text = item.text + " " + currentLine
+		}
+		if contentBuf.Len() > 0 {
+			contentBuf.WriteString(currentLine)
+		}
+		if err == io.EOF {
+			item := Item{
+				Label:   itemLabel,
+				number:  itemNumber,
+				content: contentBuf,
+			}
+			items = append(items, item)
+			break
 		}
 		if err != nil {
 			break
@@ -38,3 +81,31 @@ func extractItemsFromBuffer(buf *bytes.Buffer) []Item {
 	}
 	return items
 }
+
+// func extractItemsFromBuffer(buf *bytes.Buffer) []Item {
+// 	var items []Item
+// 	var item Item
+// 	for {
+// 		currentLine, err := buf.ReadString('\n')
+// 		if err != nil && err != io.EOF {
+// 			break
+// 		}
+// 		// Process the line here.
+// 		Matched, _ := regexp.MatchString("^[MDCLXVI]+", currentLine)
+// 		if Matched {
+// 			items = append(items, item)
+// 			re := regexp.MustCompile("^[MDCLXVI]+")
+// 			number := re.FindString(currentLine)
+// 			item = Item{
+// 				number: number,
+// 				text:   currentLine,
+// 			}
+// 		} else {
+// 			item.text = item.text + " " + currentLine
+// 		}
+// 		if err != nil {
+// 			break
+// 		}
+// 	}
+// 	return items
+// }

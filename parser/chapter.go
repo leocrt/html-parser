@@ -13,8 +13,8 @@ type Chapter struct {
 	Text     string
 	Order    int
 	Children []TextDivision
-	Articles []Article
-	Sections []Section
+	// Articles []Article
+	// Sections []Section
 }
 
 func (c Chapter) getType() DivisionType {

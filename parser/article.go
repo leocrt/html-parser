@@ -8,11 +8,13 @@ import (
 
 type Article struct {
 	Label        string
+	Order        int
+	Text         string
 	number       string
 	content      *bytes.Buffer
-	ParentType   DivisionType
-	ParentNumber string
-	Paragraphs   []Paragraph
+	parentType   DivisionType
+	parentNumber string
+	Children     []TextDivision
 }
 
 func (a Article) getType() DivisionType {
@@ -46,8 +48,8 @@ func GetArticle(buf *bytes.Buffer, parent TextDivision) []Article {
 					Label:        articleLabel,
 					number:       articleNumber,
 					content:      contentBuf,
-					ParentType:   parent.getType(),
-					ParentNumber: parent.getNumber(),
+					parentType:   parent.getType(),
+					parentNumber: parent.getNumber(),
 				}
 				articles = append(articles, article)
 				articleNumber = getTitleNumberFromLine("(Art.( )*[0-9]+)", currentLine)
@@ -65,8 +67,8 @@ func GetArticle(buf *bytes.Buffer, parent TextDivision) []Article {
 				Label:        articleLabel,
 				number:       articleNumber,
 				content:      contentBuf,
-				ParentType:   parent.getType(),
-				ParentNumber: parent.getNumber(),
+				parentType:   parent.getType(),
+				parentNumber: parent.getNumber(),
 			}
 			articles = append(articles, article)
 			break
