@@ -14,7 +14,7 @@ type Section struct {
 	Text         string
 	parentType   DivisionType
 	parentNumber string
-	Children     []Article
+	Children     []TextDivision
 }
 
 func (s Section) getType() DivisionType {
