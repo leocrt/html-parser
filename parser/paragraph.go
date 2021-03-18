@@ -15,7 +15,6 @@ type Paragraph struct {
 	content      *bytes.Buffer
 	parentType   DivisionType
 	parentNumber string
-	//Description  string
 }
 
 func findParagraph(b *bytes.Buffer) bool {

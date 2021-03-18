@@ -1,0 +1,790 @@
+[
+    {
+       "Label":"CAPÍTULO I",
+       "Text":"DAS DISPOSIÇÕES INICIAIS",
+       "Order":1,
+       "Children":[
+          {
+             "Label":"Seção I",
+             "Order":1,
+             "Text":"Do objetivo",
+             "Children":[
+                {
+                   "Label":"Art. 1",
+                   "Order":1,
+                   "Text":" Esta Instrução Normativa possui o objetivo de adotar as diretrizes de Boas Práticas de Fabricação de Medicamentos Hemoderivados do Esquema de Cooperação em Inspeção Farmacêutica, PIC/S, como requisitos complementares a serem seguidos na fabricação de medicamentos hemoderivados em adição às Diretrizes Gerais de Boas Práticas de Fabricação de Medicamentos."
+                }
+             ]
+          },
+          {
+             "Label":"Seção II",
+             "Order":2,
+             "Text":"Da abrangência",
+             "Children":[
+                {
+                   "Label":"Art. 2",
+                   "Order":1,
+                   "Text":" Esta Instrução Normativa se aplica às empresas que realizam as operações envolvidas na fabricação de medicamentos hemoderivados.",
+                   "Children":[
+                      {
+                         "Label":"§1",
+                         "Order":1,
+                         "Text":" Incluem-se no escopo do caput os materiais de partida, tal como o plasma, utilizados na fabricação dos medicamentos hemoderivados."
+                      },
+                      {
+                         "Label":"§2",
+                         "Order":2,
+                         "Text":" Incluem-se no escopo os derivados estáveis do plasma humano, tal como a albumina, incorporados em outras categorias de produtos, tais como os dispositivos médicos."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 3",
+                   "Order":2,
+                   "Text":" Esta Instrução Normativa dispõe diretrizes também para a importação de materiais de partida utilizados na fabricação de hemoderivados."
+                },
+                {
+                   "Label":"Art. 4",
+                   "Order":3,
+                   "Text":" Esta Instrução Normativa não se aplica aos hemocomponentes destinados a uso transfusional."
+                }
+             ]
+          },
+          {
+             "Label":"Seção III",
+             "Order":3,
+             "Text":"Das definições",
+             "Children":[
+                {
+                   "Label":"Art. 5",
+                   "Order":1,
+                   "Text":" Para efeito desta Instrução Normativa, são adotadas as seguintes definições:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"arquivo mestre do plasma /plasma master file (PMF): documento independente, separado do dossiê de registro. Ele fornece todas as informações relevantes e detalhadas sobre as características do plasma humano total utilizado como material de partida e/ou matéria-prima para a fabricação de frações intermediárias, constituintes dos excipientes e substâncias ativas que fazem parte do plasma, medicamentos derivados ou dispositivos médicos "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"fracionamento e planta de fracionamento: O fracionamento é o processo de fabricação em uma planta (planta de fracionamento) durante o qual os componentes do plasma são separados/purificados por vários métodos físicos e químicos, tais como, precipitação e cromatografia "
+                      },
+                      {
+                         "Label":"III",
+                         "Order":3,
+                         "Text":"hemocomponente: Um constituinte terapêutico do sangue (hemácias, leucócitos, plaquetas e plasma) que pode ser preparado por vários métodos, utilizando a metodologia convencional dos serviços de hemoterapia (por exemplo, centrifugação, filtração, congelação). O conceito não inclui as células progenitoras hematopoiéticas "
+                      },
+                      {
+                         "Label":"IV",
+                         "Order":4,
+                         "Text":"hemoderivados: Medicamentos derivados do sangue ou plasma humanos preparados com base em hemocomponentes, por meio de um processo de fracionamento industrial realizado por estabelecimentos públicos ou privados "
+                      },
+                      {
+                         "Label":"V",
+                         "Order":5,
+                         "Text":"plasma para fracionamento: é a parte líquida do sangue humano remanescente após a separação dos elementos celulares do sangue coletado em um recipiente (bolsa ou garrafa) contendo um anticoagulante, ou separado por filtração contínua ou centrifugação de sangue anticoagulado em um procedimento de aférese. Destina-se à fabricação de medicamentos derivados do plasma, em especial albumina, fatores de coagulação e imunoglobulinas de origem humana e especificados nas farmacopeias reconhecidas pela Anvisa "
+                      },
+                      {
+                         "Label":"VI",
+                         "Order":6,
+                         "Text":"processamento: qualquer etapa na preparação do hemocomponente que é realizada entre a coleta do sangue e a extração de um hemocomponente como, por exemplo, separação dos hemocomponentes. Na presente instrução normativa, o processamento se refere, além disso, às operações realizadas nos serviços de hemoterapia que são específicas ao plasma que será utilizado para fracionamento "
+                      },
+                      {
+                         "Label":"VII",
+                         "Order":7,
+                         "Text":"produto sanguíneo: qualquer produto terapêutico derivado do sangue ou plasma humano "
+                      },
+                      {
+                         "Label":"VIII",
+                         "Order":8,
+                         "Text":"programa de contrato para fracionamento: contrato de fracionamento em uma planta nacional de um fracionador/fabricante, usando matéria-prima de outros países e fabricando produtos não destinados ao seu mercado doméstico "
+                      },
+                      {
+                         "Label":"IX",
+                         "Order":9,
+                         "Text":"IX - sangue: sangue total coletado de um único doador (humano) e processado para transfusão ou para fabricação posterior "
+                      },
+                      {
+                         "Label":"X",
+                         "Order":10,
+                         "Text":"serviço de hemoterapia: Qualquer estrutura ou serviço que seja responsável por qualquer aspecto da coleta e testagem de sangue humano e hemocomponentes, qualquer que seja sua finalidade pretendida, e seu correspondente processamento, armazenamento e distribuição quando destinados à transfusão. "
+                      }
+                   ]
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO II",
+       "Text":"DAS DISPOSIÇÕES GERAIS",
+       "Order":2,
+       "Children":[
+          {
+             "Label":"Art. 6",
+             "Order":1,
+             "Text":" A presente instrução normativa define os requisitos específicos das Boas Práticas de Fabricação (BPF) para as atividades de coleta, processamento, armazenamento e transporte de plasma humano utilizado para fracionamento e para a fabricação de hemoderivados.",
+             "Children":[
+                {
+                   "Label":"Parágrafo único.",
+                   "Order":1,
+                   "Text":"Em princípio, as substâncias ativas utilizadas como material de partida para a produção de hemoderivados devem respeitar os princípios e diretrizes das boas práticas de fabricação."
+                }
+             ]
+          },
+          {
+             "Label":"Art. 7",
+             "Order":2,
+             "Text":" Os hemoderivados ou medicamentos derivados do sangue ou plasma humano devem cumprir as Diretrizes Gerais de Fabricação de Medicamentos, bem como com seu registro sanitário."
+          },
+          {
+             "Label":"Art. 8",
+             "Order":3,
+             "Text":" Os hemoderivados são considerados como produtos farmacêuticos biológicos e os materiais de partida incluem insumos biológicos, tais como células ou fluidos de origem humana."
+          },
+          {
+             "Label":"Art. 9",
+             "Order":4,
+             "Text":" Para os materiais de partida derivados do sangue humano e de plasma obtidos nacionalmente, os requisitos nacionais para os serviços de hemoterapia envolvidos na coleta, preparação e testagem devem ser obedecidos."
+          },
+          {
+             "Label":"Art. 10",
+             "Order":5,
+             "Text":" A coleta, preparação e testes devem ser realizadas de acordo com um sistema de qualidade apropriado e para os quais os padrões e especificações devem estar definidos."
+          },
+          {
+             "Label":"Art. 11",
+             "Order":6,
+             "Text":"Os requisitos nacionais e internacionais sobre rastreabilidade, reações adversas graves e notificações de eventos adversos sérios do doador ao receptor devem ser aplicados."
+          },
+          {
+             "Label":"Art. 12",
+             "Order":7,
+             "Text":" As monografias relevantes das farmacopeias adotadas devem ser observadas."
+          },
+          {
+             "Label":"Art. 13",
+             "Order":8,
+             "Text":"Os materiais de partida para a fabricação de hemoderivados importados de outros países e destinadas para uso ou distribuição dentro do país devem satisfazer às demais normativas vigentes.",
+             "Children":[
+                {
+                   "Label":"§1",
+                   "Order":1,
+                   "Text":" No caso de programas de contratos de fracionamento, os materiais de partida importados de outros países devem obedecer aos requisitos de qualidade e segurança nacionais ou equivalentes para os hemocomponentes."
+                },
+                {
+                   "Label":"§2",
+                   "Order":2,
+                   "Text":" As atividades realizadas no país devem cumprir integralmente com as BPF."
+                },
+                {
+                   "Label":"§3",
+                   "Order":3,
+                   "Text":" Deve-se dar atenção às normas e especificações nacionais relativas a um sistema de qualidade para os serviços de hemoterapia, aos requisitos de rastreabilidade e à notificação de reações, evento e incidentes adversos graves, e ainda às diretrizes e recomendações pertinentes da Organização Mundial de Saúde - OMS."
+                }
+             ]
+          },
+          {
+             "Label":"Art. 14",
+             "Order":9,
+             "Text":"Os requisitos específicos para documentação e outras disposições relativas aos materiais de partida dos hemoderivados devem ser definidos no Arquivo Mestre do Plasma."
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO III",
+       "Text":"DAS DISPOSIÇÕES ESPECÍFICAS",
+       "Order":3,
+       "Children":[
+          {
+             "Label":"Seção I",
+             "Order":1,
+             "Text":"Do Sistema de Gestão da Qualidade",
+             "Children":[
+                {
+                   "Label":"Art. 15",
+                   "Order":1,
+                   "Text":"O gerenciamento da qualidade deve reger todas as etapas, desde a seleção dos doadores no serviço de hemoterapia até a entrega pelo fabricante do produto acabado."
+                },
+                {
+                   "Label":"Art. 16",
+                   "Order":2,
+                   "Text":"A rastreabilidade de cada doação até a entrega do plasma à planta de fracionamento deve ser assegurada pelo serviço de hemoterapia, por meio de procedimentos precisos de identificação, manutenção de registros e um sistema de rotulagem apropriado de acordo com os requisitos da legislação nacional.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"A rastreabilidade deve ser mantida durante toda a fabricação e distribuição dos produtos acabados pelo fabricante."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 17",
+                   "Order":3,
+                   "Text":"O sangue ou plasma utilizados como material de partida para a fabricação de hemoderivados deve ser coletado e processado pelos serviços de hemoterapia e testado em laboratórios que cumprem as diretrizes de sistemas de qualidade em conformidade com a legislação nacional."
+                },
+                {
+                   "Label":"Art. 18",
+                   "Order":4,
+                   "Text":"Os serviços de hemoterapia devem estar autorizados."
+                },
+                {
+                   "Label":"Art. 19",
+                   "Order":5,
+                   "Text":"Caso o plasma seja importado de outros países, os fornecedores/serviços de hemoterapia devem ser qualificados e aprovados.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Eles devem constar nas especificações para matérias-primas conforme definido pela planta/fabricante de fracionamento e aceitos pela autoridade competente."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 20",
+                   "Order":6,
+                   "Text":" A qualificação do fornecedor, incluindo auditorias, deve ser realizada pela planta de fracionamento/fabricante do produto acabado em concordância com procedimentos aprovados.",
+                   "Children":[
+                      {
+                         "Label":"§1",
+                         "Order":1,
+                         "Text":" Os estabelecimentos responsáveis pelos testes laboratoriais dos materiais fornecidos também devem ser objeto de auditoria."
+                      },
+                      {
+                         "Label":"§2",
+                         "Order":2,
+                         "Text":" A requalificação de fornecedores deve ser realizada em intervalos regulares, levando em consideração uma abordagem baseada em risco."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 21",
+                   "Order":7,
+                   "Text":" A planta de fracionamento/fabricante do produto acabado deve estabelecer acordo técnico de qualidade na forma de contrato escrito com os serviços de hemoterapia, os quais devem incluir, mas não se limitando a:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"definição de funções e respectivas responsabilidades "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"sistema de qualidade e requisitos de documentação "
+                      },
+                      {
+                         "Label":"III",
+                         "Order":3,
+                         "Text":"critérios de seleção e teste "
+                      },
+                      {
+                         "Label":"IV",
+                         "Order":4,
+                         "Text":"requisitos para a separação do sangue em hemocomponentes/plasma "
+                      },
+                      {
+                         "Label":"V",
+                         "Order":5,
+                         "Text":"congelamento de plasma "
+                      },
+                      {
+                         "Label":"VI",
+                         "Order":6,
+                         "Text":"armazenamento e transporte de plasma "
+                      },
+                      {
+                         "Label":"VII",
+                         "Order":7,
+                         "Text":"rastreabilidade e informação pós-doação/coleta (incluindo eventos adversos). "
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 22",
+                   "Order":8,
+                   "Text":"Os resultados dos testes de todas as unidades fornecidas pelo serviço de hemoterapia devem ser disponibilizados para a planta de fracionamento/fabricante do medicamento."
+                },
+                {
+                   "Label":"Art. 23",
+                   "Order":9,
+                   "Text":"Qualquer etapa de fracionamento subcontratada pelo serviço de hemoterapia deve ser definida em acordo técnico de qualidade na forma de contrato escrito."
+                },
+                {
+                   "Label":"Art. 24",
+                   "Order":10,
+                   "Text":"Um sistema formal de controle de mudanças deve estar implementado para planejar, avaliar e documentar todas as mudanças que possam afetar a qualidade, a segurança dos produtos ou a rastreabilidade.",
+                   "Children":[
+                      {
+                         "Label":"§1",
+                         "Order":1,
+                         "Text":"O impacto potencial das mudanças propostas deve ser avaliado por este sistema."
+                      },
+                      {
+                         "Label":"§2",
+                         "Order":2,
+                         "Text":"A necessidade de testes e validação adicionais, especialmente para as etapas de inativação e remoção viral, deve ser determinada."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 25",
+                   "Order":11,
+                   "Text":"Deve ser implementada uma estratégia de segurança adequada para minimizar o risco de infecção por agentes infecciosos, incluindo os emergentes."
+                },
+                {
+                   "Label":"Art. 26",
+                   "Order":12,
+                   "Text":"Esta estratégia deve envolver uma avaliação de risco que:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"defina um tempo de quarentena interno antes de se processar o plasma, para que se possibilite a remoção das unidades de soroconversão "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"considere todos os aspectos das etapas de redução viral e/ou testagem de agentes infecciosos ou substitutos "
+                      },
+                      {
+                         "Label":"III",
+                         "Order":3,
+                         "Text":"considere as capacidades de redução de vírus, o tamanho do pool e outros aspectos relevantes dos processos de fabricação."
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção II",
+             "Order":2,
+             "Text":"Da Rastreabilidade e das Medidas Pós Coleta",
+             "Children":[
+                {
+                   "Label":"Art. 27",
+                   "Order":1,
+                   "Text":" Deve existir um sistema que permita rastrear cada doação, desde o doador e a doação, passando pelo serviço de hemoterapia até o lote do produto farmacêutico terminado e vice-versa."
+                },
+                {
+                   "Label":"Art. 28",
+                   "Order":2,
+                   "Text":" As responsabilidades pela rastreabilidade do produto devem ser definidas sem falhas para as etapas descritas abaixo:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"do doador e da doação no serviço de hemoterapia para a planta de fracionamento sendo esta de responsabilidade do Responsável Técnico do serviço de hemoterapia "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"da planta de fracionamento ao fabricante do medicamento e a qualquer instalação secundária, seja fabricante de um medicamento ou de um dispositivo médico sendo esta de responsabilidade da Pessoa Delegada pelo Sistema de Gestão da Qualidade Farmacêutica da planta produtora. "
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 29",
+                   "Order":3,
+                   "Text":"Os dados necessários para a rastreabilidade completa devem ser armazenados de acordo com a legislação nacional."
+                },
+                {
+                   "Label":"Art. 30",
+                   "Order":4,
+                   "Text":"Os acordos técnicos de qualidade na forma de contratos escritos celebrados entre os serviços de hemoterapia (incluindo laboratórios analíticos) e a planta de fracionamento/fabricante devem assegurar que as medidas de rastreabilidade e pós-coleta cobrem toda a cadeia desde a coleta do plasma até todos os fabricantes responsáveis pela liberação dos produtos."
+                },
+                {
+                   "Label":"Art. 31",
+                   "Order":5,
+                   "Text":"Os serviços de hemoterapia devem notificar a planta de fracionamento/fabricante de qualquer evento que possa afetar a qualidade ou a segurança do produto, incluindo eventos adversos sérios e reações e outras informações relevantes detectadas após a aceitação do doador ou liberação do plasma como, por exemplo, dados de revisão e informações de hemo e retrovigilância.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"A notificação também se aplica quando a inspeção de um serviço de hemoterapia por uma autoridade competente levar ao cancelamento de uma licença, certificado ou aprovação existente."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 32",
+                   "Order":6,
+                   "Text":"Quando a planta de fracionamento/fabricante estiver localizada em outro país, as informações devem ser encaminhadas ao fabricante responsável pela liberação no país de qualquer produto fabricado a partir do plasma em questão.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Em ambos os casos, se for relevante para a qualidade ou segurança do produto, esta informação deve ser enviada à autoridade competente responsável pela planta de fracionamento /fabricante, conforme exigido pela legislação nacional."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 33",
+                   "Order":7,
+                   "Text":"O gerenciamento de informação pós-coleta deve estar descrito nos procedimentos operacionais padrão e levar em consideração as obrigações e procedimentos para informar as autoridades sanitárias competentes",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"As medidas pós-coleta devem ser realizadas conforme definido nas normas nacionais."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 34",
+                   "Order":8,
+                   "Text":"O serviço de hemoterapia e o fracionador/fabricante devem informar um ao outro se, após a doação: I - verificar-se que o doador não cumpriu os critérios de saúde relevantes ao doador II - uma doação subsequente de um doador anteriormente negativo para marcadores virais foi considerada positiva para qualquer um dos marcadores virais III - for detectado que o teste para marcadores virais não foi realizado de acordo com os procedimentos acordados IV - o doador desenvolveu uma doença infecciosa causada por um agente potencialmente transmissível por produtos derivados do plasma, tais como, HBV, HCV, HAV e outros vírus da hepatite não A, não B, não C, VIH-1 e 2 e outros agentes à luz do conhecimento atual V - o doador desenvolveu a doença de Creutzfeldt-Jakob (DCJ ou vCJD) VI - o receptor de sangue ou de um hemocomponente desenvolveu uma infecção pós-transfusional que implica ou pode ser rastreada até ao doador.",
+                   "Children":[
+                        {
+                            "Label":"I",
+                            "Order":1,
+                            "Text":"verificar-se que o doador não cumpriu os critérios de saúde relevantes ao doador;"
+                        },
+                        {
+                            "Label":"II",
+                            "Order":2,
+                            "Text":"uma doação subsequente de um doador anteriormente negativo para marcadores virais foi considerada positiva para qualquer um dos marcadores virais;"
+                        },
+                        {
+                            "Label":"III",
+                            "Order":3,
+                            "Text":"for detectado que o teste para marcadores virais não foi realizado de acordo com os procedimentos acordados;"
+                        },
+                        {
+                            "Label":"IV",
+                            "Order":4,
+                            "Text":"o doador desenvolveu uma doença infecciosa causada por um agente potencialmente transmissível por produtos derivados do plasma, tais como, HBV, HCV,HAV e outros vírus da hepatite não A, não B, não C, VIH-1 e 2 e outros agentes à luz do conhecimento atual;"
+                        },
+                        {
+                            "Label":"V",
+                            "Order":5,
+                            "Text":"o doador desenvolveu a doença de Creutzfeldt-Jakob (DCJ ou vCJD)"
+                        },
+                        {
+                            "Label":"VI",
+                            "Order":6,
+                            "Text":"o receptor de sangue ou de um hemocomponente desenvolveu uma infecção pós-transfusional que implica ou pode ser rastreada até ao doador."
+                        },
+                        {
+                            "Label":"Parágrafo único.",
+                            "Order":1,
+                            "Text":"No caso de qualquer um dos itens acima, uma reavaliação da documentação do lote deverá sempre ser realizada e a necessidade de retirada de determinado lote deverá ser cuidadosamente considerada, levando em consideração critérios como o agente transmissível envolvido, o tamanho do pool, o período de tempo entre doação e a soro conversão, a natureza do produto e seu método de fabricação."
+                        }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção III",
+             "Order":3,
+             "Text":"Das instalações e dos equipamentos",
+             "Children":[
+                {
+                   "Label":"Art. 35",
+                   "Order":1,
+                   "Text":" A fim de minimizar o risco de contaminação microbiológica ou a introdução de material estranho no plasma, o descongelamento e a uniformização das unidades de plasma devem ser efetuados numa área classificada minimamente como Grau D conforme diretrizes de boas práticas vigentes a medicamentos estéreis.",
+                   "Children":[
+                        {
+                            "Label":"Parágrafo único.",
+                            "Order":1,
+                            "Text":"Roupas apropriadas a uma área Grau D devem ser usadas, incluindo máscaras e luvas."
+                        }
+                   ]
+                },
+                {
+                   "Label":"Art. 36",
+                   "Order":2,
+                   "Text":"Todas as outras manipulações em sistema aberto durante o processo de fabricação devem ser feitas sob condições em conformidade com os requisitos apropriados das diretrizes de boas práticas vigentes a medicamentos estéreis."
+                },
+                {
+                   "Label":"Art. 37",
+                   "Order":3,
+                   "Text":"O monitoramento ambiental deverá ser realizado regularmente, especialmente durante a abertura dos recipientes de plasma, e durante os processos posteriores de descongelação e uniformização, em conformidade as diretrizes de boas práticas vigentes a medicamentos estéreis."
+                },
+                {
+                   "Label":"Art. 38",
+                   "Order":4,
+                   "Text":" Na produção de medicamentos derivados de plasma, devem ser utilizados procedimentos adequados de inativação ou remoção viral e devem ser tomadas medidas para evitar a contaminação cruzada de produtos inativados com produtos não inativados.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Instalações e equipamentos dedicados e diferenciados devem ser usados para etapas pré inativação e pós inativação viral."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 39",
+                   "Order":5,
+                   "Text":" A validação dos métodos para redução viral não deve ser realizada nas mesmas instalações usadas para a fabricação para que não se exponha às operações de rotina ao risco de contaminação advindo de processos não validados.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"A validação deve ser realizada de acordo com as recomendações internacionais."
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção IV",
+             "Order":4,
+             "Text":"Da fabricação",
+             "Children":[
+                {
+                   "Label":"Subseção I",
+                   "Order":1,
+                   "Text":"Dos materiais de partida",
+                   "Children":[
+                      {
+                         "Label":"Art. 40",
+                         "Order":1,
+                         "Text":"Os materiais de partida devem atender aos requisitos de monografias relevantes da Farmacopeias reconhecidas pela Anvisa e às condições estabelecidas no respectivo dossiê de registro, incluindo o Arquivo Mestre de Plasma, quando aplicável.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"Estes requisitos devem ser definidos no acordo técnico de qualidade na forma de contrato escrito entre o serviço de hemoterapia e o fracionador/fabricante e controlados por meio do sistema de qualidade."
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 41",
+                         "Order":2,
+                         "Text":" Dependendo do tipo de coleta, se de sangue total ou de aférese, diferentes etapas de processamento podem ser necessárias.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"Todas as etapas de processamento, tais como, centrifugação e/ou separação, amostragem, etiquetagem e congelamento devem ser definidas em procedimentos escritos."
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 42",
+                         "Order":3,
+                         "Text":"Quaisquer misturas de unidades e de amostras, especialmente durante a rotulagem, bem como qualquer contaminação, devem ser evitadas."
+                      },
+                      {
+                         "Label":"Art. 43",
+                         "Order":4,
+                         "Text":"O congelamento é um passo crucial para a recuperação de proteínas que são lábeis no plasma como, por exemplo, os fatores de coagulação. Portanto, o congelamento deve ser efetuado o mais rapidamente possível após a coleta, seguindo um método validado."
+                      },
+                      {
+                         "Label":"Art. 44",
+                         "Order":5,
+                         "Text":"O armazenamento e transporte de sangue ou plasma em qualquer estágio da cadeia de transporte para a planta de fracionamento deve ser definido e registrado.",
+                         "Children":[
+                            {
+                               "Label":"§1",
+                               "Order":1,
+                               "Text":" Qualquer desvio da temperatura definida deve ser notificado à planta de fracionamento."
+                            },
+                            {
+                               "Label":"§2",
+                               "Order":2,
+                               "Text":" Equipamentos qualificados e procedimentos validados devem ser usados no transporte."
+                            }
+                         ]
+                      }
+                   ]
+                },
+                {
+                   "Label":"Subseção II",
+                   "Order":2,
+                   "Text":"Da certificação/liberação do plasma para fracionamento com material de partida",
+                   "Children":[
+                      {
+                         "Label":"Art. 45",
+                         "Order":1,
+                         "Text":"O plasma para fracionamento somente deve ser liberado da quarentena utilizando-se de sistemas e procedimentos que assegurem a qualidade necessária para a fabricação do produto acabado.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"O plasma somente deve ser distribuído para a planta fabricante/ fracionadora quando qualificado, documentado e certificado pelo Responsável Técnico do serviço de hemoterapia ou no caso de coleta de sangue/plasma em outros países por uma pessoa com responsabilidades e qualificações equivalentes, que obedece aos requisitos e especificações definidos nos respectivos contratos escritos e que todas as etapas foram executadas de acordo com as Boas Práticas e as Diretrizes das BPF, conforme apropriado."
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 46",
+                         "Order":2,
+                         "Text":"Ao entrar na planta de fracionamento, as unidades de plasma devem ser liberadas para fracionamento sob a responsabilidade da Pessoa Delegada pelo Sistema de Gestão da Qualidade Farmacêutica daquela planta.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"A Pessoa Delegada pelo Sistema de Gestão da Qualidade Farmacêutica deve confirmar que o plasma atende os requisitos de todas as monografias pertinentes e as condições estabelecidas no respectivo dossiê de registro, incluindo o arquivo mestre do plasma se aplicável."
+                            }
+                         ]
+                      }
+                   ]
+                },
+                {
+                   "Label":"Subseção III",
+                   "Order":3,
+                   "Text":"Do processamento do plasma para fracionamento",
+                   "Children":[
+                      {
+                         "Label":"Art. 47",
+                         "Order":1,
+                         "Text":"As etapas utilizadas no processo de fracionamento variam de acordo com o produto e fabricante e geralmente incluem vários procedimentos de fracionamento/fabricação, alguns dos quais podem contribuir para a inativação e/ou remoção de contaminação potencial."
+                      },
+                      {
+                         "Label":"Art. 48",
+                         "Order":2,
+                         "Text":"Os requerimentos para os processos de mistura, das amostras, fracionamento/purificação e inativação/remoção do vírus devem ser definidos e seguidos minuciosamente."
+                      },
+                      {
+                         "Label":"Art. 49",
+                         "Order":3,
+                         "Text":" Os métodos utilizados no processo de inativação viral devem ser realizados com estrita adesão aos procedimentos validados e em conformidade com os métodos utilizados nos estudos de validação de remoção/inativação viral."
+                      },
+                      {
+                         "Label":"Art. 50",
+                         "Order":4,
+                         "Text":"Uma investigação detalhada de quaisquer falhas nos procedimentos de inativação viral deve ser realizada.",
+                         "Children":[
+                            {
+                               "Label":"§1",
+                               "Order":1,
+                               "Text":" A observância ao processo de fabricação validado é especialmente importante nos procedimentos de remoção e inativação viral, pois quaisquer desvios podem resultar em um risco de segurança para o produto."
+                            },
+                            {
+                               "Label":"§2",
+                               "Order":2,
+                               "Text":" Os procedimentos que levam em consideração esse risco devem estar implementados."
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 51",
+                         "Order":5,
+                         "Text":"Qualquer atividade de reprocesso ou retrabalho deve ser executada somente depois de realizado um exercício de gerenciamento de risco da qualidade e utilizando-se apenas das etapas de fabricação definidas em registro."
+                      },
+                      {
+                         "Label":"Art. 52",
+                         "Order":6,
+                         "Text":"Um sistema para segregar/distinguir claramente os produtos ou intermediários que passaram pelo processo de remoção viral, daqueles que não passaram, deve estar implementado."
+                      },
+                      {
+                         "Label":"Art. 53",
+                         "Order":7,
+                         "Text":" Dependendo das conclusões do processo de gerenciamento de risco, levando-se em consideração possíveis diferenças na epidemiologia, a produção em campanha, com uma clara segregação e com procedimentos de limpeza validados, deve ser adotada quando o plasma ou intermediários de diferentes origens forem processados na mesma planta.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"A exigência de tais medidas deve se basear em recomendações internacionais."
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 54",
+                         "Order":8,
+                         "Text":" Para produtos intermediários destinados a serem armazenados, um prazo de validade deve ser definido com base em dados de estabilidade."
+                      },
+                      {
+                         "Label":"Art. 55",
+                         "Order":9,
+                         "Text":"O armazenamento e o transporte de medicamentos intermediários e acabados, em qualquer estágio da cadeia de transporte, devem ser especificados e registrados.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"Equipamentos qualificados e procedimentos validados devem ser empregados."
+                            }
+                         ]
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção V",
+             "Order":5,
+             "Text":"Do controle de qualidade",
+             "Children":[
+                {
+                   "Label":"Art. 56",
+                   "Order":1,
+                   "Text":"Os requisitos de teste para vírus ou outros agentes infecciosos devem ser considerados à luz do conhecimento emergente sobre agentes infecciosos e da disponibilidade de métodos e testes apropriados e validados."
+                },
+                {
+                   "Label":"Art. 57",
+                   "Order":2,
+                   "Text":" A primeira mistura homogênea de plasma como, por exemplo, após a separação do crioprecipitado, deve ser testada por métodos validados de adequada sensibilidade e especificidade, de acordo com os requisitos das Farmacopeias reconhecidas pela Anvisa."
+                }
+             ]
+          },
+          {
+             "Label":"Seção VI",
+             "Order":6,
+             "Text":"Da liberação de intermediários e produtos acabado",
+             "Children":[
+                {
+                   "Label":"Art. 58",
+                   "Order":1,
+                   "Text":"Somente os lotes derivados de misturas de plasmas testados e consideradas negativas para marcadores de vírus/anticorpos e em conformidade com as monografias pertinentes da Farmacopeia, incluindo quaisquer limites específicos de corte e com as especificações aprovadas, por exemplo, no Arquivo Mestre do Plasma, se aplicável, devem ser liberados."
+                },
+                {
+                   "Label":"Art. 59",
+                   "Order":2,
+                   "Text":" A liberação de intermediários destinados a processamento interno adicional ou destinação inter ou intra-sites bem como a liberação de produtos acabados deve ser realizada pela Pessoa Delegada pelo Sistema de Gestão da Qualidade Farmacêutica e de acordo com a autorização de comercialização aprovada."
+                },
+                {
+                   "Label":"Art. 60",
+                   "Order":3,
+                   "Text":" A liberação de produtos intermediários e finais usados em programas de contrato fracionamento deve ser realizada pela Pessoa Delegada pelo Sistema de Gestão da Qualidade Farmacêutica com base em padrões acordados com o contratado e em conformidade com os padrões de BPF."
+                }
+             ]
+          },
+          {
+             "Label":"Seção VII",
+             "Order":7,
+             "Text":"Da retenção de amostras da mistura de plasma",
+             "Children":[
+                {
+                   "Label":"Art. 61",
+                   "Order":1,
+                   "Text":"Uma mistura de plasma pode ser usada para fabricar mais de um lote e/ou produto."
+                },
+                {
+                   "Label":"Art. 62",
+                   "Order":2,
+                   "Text":" As amostras de retenção e os registos correspondentes de cada mistura devem ser mantidos durante, pelo menos, um ano após a data de expiração do produto acabado derivado desta mistura que tenha a data de validade mais longa."
+                }
+             ]
+          },
+          {
+             "Label":"Seção VIII",
+             "Order":8,
+             "Text":"Do descarte de resíduos",
+             "Children":[
+                {
+                   "Label":"Art. 63",
+                   "Order":1,
+                   "Text":" Devem existir procedimentos escritos para o armazenamento e descarte seguro e documentado de resíduos, itens descartáveis e rejeitados, tais como, unidades contaminadas, unidades de doadores infectados, sangue, plasma, intermediários ou produtos acabados com vida de prateleira expirados."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO IV",
+       "Text":"DAS DISPOSIÇOES FINAIS",
+       "Order":4,
+       "Children":[
+          {
+             "Label":"Art. 64",
+             "Order":1,
+             "Text":"O descumprimento das disposições contidas nesta Instrução Normativa constitui infração sanitária, nos termos da Lei n. 6.437, de 20 de agosto de 1977, sem prejuízo das responsabilidades civil, administrativa e penal cabíveis."
+          },
+          {
+             "Label":"Art. 65",
+             "Order":2,
+             "Text":"Esta Instrução Normativa entra em vigor 180 (cento e oitenta) dias após sua publicação."
+          }
+       ]
+    }
+ ]

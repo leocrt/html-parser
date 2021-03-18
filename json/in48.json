@@ -1,0 +1,359 @@
+[
+    {
+       "Label":"CAPÍTULO I",
+       "Text":"DAS DISPOSIÇÕES INICIAIS",
+       "Order":1,
+       "Children":[
+          {
+             "Label":"Seção I",
+             "Order":1,
+             "Text":"Do objetivo",
+             "Children":[
+                {
+                   "Label":"Art. 1",
+                   "Order":1,
+                   "Text":"Esta Instrução Normativa possui o objetivo de adotar as diretrizes de Boas Práticas de Fabricação relacionadas às amostras de referência e de retenção do Esquema de Cooperação em Inspeção Farmacêutica, PIC/S, como requisitos complementares a serem seguidos na fabricação de medicamentos, em adição às Diretrizes Gerais de Boas Práticas de Fabricação de Medicamentos."
+                }
+             ]
+          },
+          {
+             "Label":"Seção II",
+             "Order":2,
+             "Text":"Da abrangência",
+             "Children":[
+                {
+                   "Label":"Art. 2",
+                   "Order":1,
+                   "Text":"Esta Instrução Normativa se aplica às empresas que realizam as operações envolvidas na fabricação de medicamentos."
+                },
+                {
+                   "Label":"Art. 3",
+                   "Order":2,
+                   "Text":"Esta Instrução Normativa estabelece os requisitos para a coleta e a guarda de amostras de referência de matérias-primas, materiais de embalagem ou produtos acabados e de amostras de retenção de produtos acabados."
+                }
+             ]
+          },
+          {
+             "Label":"Seção III",
+             "Order":3,
+             "Text":"Das definições",
+             "Children":[
+                {
+                   "Label":"Art. 4",
+                   "Order":1,
+                   "Text":" Para efeitos desta Instrução Normativa, são adotadas as seguintes definições:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"amostra de referência: amostras de um lote de matérias-primas, material de embalagem ou medicamento na sua embalagem primária que são armazenadas com o propósito de serem analisadas, se necessário, durante o prazo de validade do produto"
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"amostra de retenção: amostras de um lote totalmente embalado de um medicamento, com todos seus componentes necessários para a venda ao consumidor, tais como embalagem secundária da apresentação, rotulagem, bulas, gravações dos dados variáveis, que são armazenadas para fins de identificação. "
+                      }
+                   ]
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO II",
+       "Text":"DAS DISPOSIÇÕES GERAIS",
+       "Order":2,
+       "Children":[
+          {
+             "Label":"Seção I",
+             "Order":1,
+             "Text":"Da introdução",
+             "Children":[
+                {
+                   "Label":"Art. 5",
+                   "Order":1,
+                   "Text":" Nos casos em que a estabilidade permite, amostras de referência devem ser armazenadas para os intermediários críticos que requeiram análise e liberação, ou para os intermediários que sejam transportados para fora do estabelecimento."
+                },
+                {
+                   "Label":"Art. 6",
+                   "Order":2,
+                   "Text":"No caso de produtos finalizados, em muitas situações, as amostras de referência e de retenção tem a mesma apresentação e podem ser consideradas intercambiáveis."
+                },
+                {
+                   "Label":"Art. 7",
+                   "Order":3,
+                   "Text":"É obrigação do fabricante, importador ou do local de liberação do lote manter amostras de referência e/ou retenção para cada lote de produto finalizado e, para o fabricante manter amostras de referência dos lotes de matérias-primas e/ ou intermediários."
+                },
+                {
+                   "Label":"Art. 8",
+                   "Order":4,
+                   "Text":"Cada local de embalagem deve manter amostras de referência de cada lote dos materiais de embalagem primários e impressos.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"A disponibilização dos materiais de embalagem impressos como parte constituinte das amostras de referência e/ ou retenção do produto finalizado é aceitável."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 9",
+                   "Order":5,
+                   "Text":" As amostras de referência e/ou retenção são um registro do lote do produto finalizado ou das matérias-primas e podem ser acessadas em situações, tais como reclamações relacionadas à concentração, questionamentos relacionados à conformidade com o registro sanitário ou relacionados à embalagem/ rotulagem, ou nos relatórios de farmacovigilância."
+                },
+                {
+                   "Label":"Art. 10",
+                   "Order":6,
+                   "Text":" Os registros referentes à rastreabilidade de uso e estocagem das amostras devem ser mantidos e estar disponíveis para a revisão das autoridades sanitárias."
+                }
+             ]
+          },
+          {
+             "Label":"Seção II",
+             "Order":2,
+             "Text":"Da duração do armazenamento",
+             "Children":[
+                {
+                   "Label":"Art. 11",
+                   "Order":1,
+                   "Text":"As amostras de referência e/ou retenção de cada lote de produto finalizado devem ser mantidas por, pelo menos, um ano após a data de expiração.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"A amostra de referência deve estar contida na embalagem primária ou em embalagens compostas pelo mesmo material que a embalagem primária onde o produto é comercializado."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 12",
+                   "Order":2,
+                   "Text":" As amostras de matérias-primas que não sejam solventes, gases ou água utilizados no processo de fabricação de um medicamento devem ser retidas por, pelo menos, dois anos após a liberação do lote do medicamento.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Esse período pode ser reduzido se a estabilidade do material, conforme indicado nas especificações relevantes, for menor."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 13",
+                   "Order":3,
+                   "Text":" As amostras dos materiais de embalagem devem ser mantidos durante o período de validade do medicamento em que foram utilizadas."
+                }
+             ]
+          },
+          {
+             "Label":"Seção III",
+             "Order":3,
+             "Text":"Da quantidade das amostras de referência e retenção",
+             "Children":[
+                {
+                   "Label":"Art. 14",
+                   "Order":1,
+                   "Text":"A amostra de referência deve ser de um tamanho suficiente para permitir a realização, em ocasiões distintas, de dois controles analíticos completos do lote, em conformidade com o registro sanitário do país onde está situado o local de fabricação."
+                },
+                {
+                   "Label":"Art. 15",
+                   "Order":2,
+                   "Text":"As quantidades devem ser planejadas para que os testes analíticos possam ser executados a partir de embalagens não abertas.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Qualquer exceção ao previsto no caput e no § 1 deve ser tecnicamente justificada e aprovada com a autoridade sanitária competente."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 16",
+                   "Order":3,
+                   "Text":" As amostras de referência devem ser representativas dos lotes de matérias- primas, produtos intermediários ou produtos finalizados de onde foram coletadas.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Amostras adicionais podem ser necessárias para monitorar etapas estressantes de um processo, tais como do início e do fim de um processo."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 17",
+                   "Order":4,
+                   "Text":" Quando um lote for embalado em duas ou mais operações distintas de embalagem, pelo menos uma amostra de retenção deve ser retirada de cada operação individual de embalagem.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Qualquer exceção a este requisito deve ser justificada tecnicamente e acordada com a autoridade sanitária."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 18",
+                   "Order":5,
+                   "Text":" Deve-se assegurar a manutenção de uma capacidade analítica prontamente disponível para realização dos ensaios especificados pelo período de até um ano após a expiração do último lote fabricado."
+                }
+             ]
+          },
+          {
+             "Label":"Seção IV",
+             "Order":4,
+             "Text":"Das condições de armazenamento",
+             "Children":[
+                {
+                   "Label":"Art. 19",
+                   "Order":1,
+                   "Text":" As condições de armazenamento devem estar de acordo com o registro sanitário do país onde está situado o local de fabricação."
+                }
+             ]
+          },
+          {
+             "Label":"Seção V",
+             "Order":5,
+             "Text":"Dos acordos de qualidade",
+             "Children":[
+                {
+                   "Label":"Art. 20",
+                   "Order":1,
+                   "Text":"Nos casos em que o detentor do registro não seja o mesmo estabelecimento responsável pela liberação do lote, a responsabilidade pela coleta e armazenamento das amostras de referência/retenção deve ser definida por meio de um acordo técnico entre as partes.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"O disposto também se aplica nos casos em que qualquer atividade de fabricação ou de liberação de lotes seja executada por um estabelecimento que não aquele com responsabilidade geral sobre o lote."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 21",
+                   "Order":2,
+                   "Text":" A Pessoa Delegada pelo Sistema de Gestão da Qualidade Farmacêutica pela liberação de um lote para venda deve garantir que todas as amostras de referência e retenção pertinentes estejam acessíveis em um prazo razoável de tempo.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Quando aplicável, as disposições relativas ao acesso previsto no caput devem ser definidas em contrato."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 22",
+                   "Order":3,
+                   "Text":"Nas situações em que mais de um estabelecimento estiver envolvido na fabricação do produto, devem estar disponíveis acordos escritos para o controle da retirada e localização das amostras de referência/retenção."
+                }
+             ]
+          },
+          {
+             "Label":"Seção VI",
+             "Order":6,
+             "Text":"Das generalidades em relação às amostras de referência",
+             "Children":[
+                {
+                   "Label":"Art. 23",
+                   "Order":1,
+                   "Text":" As amostras de referência possuem finalidade analítica e, por consequência, devem estar convenientemente disponíveis para o laboratório que detem a metodologia validada para seu teste.",
+                   "Children":[
+                      {
+                         "Label":"§1",
+                         "Order":1,
+                         "Text":" Em se tratando das amostras de referência de matérias-primas e materiais de embalagem utilizados na fabricação de medicamentos, o armazenamento deve corresponder ao local de fabricação do medicamento."
+                      },
+                      {
+                         "Label":"§2",
+                         "Order":2,
+                         "Text":" Em se tratando de amostras de referência de produtos finalizados, o armazenamento deve corresponder ao local original de fabricação."
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção VII",
+             "Order":7,
+             "Text":"Das generalidades em relação às amostras de retenção",
+             "Children":[
+                {
+                   "Label":"Art. 24",
+                   "Order":1,
+                   "Text":" A amostra de retenção deve representar o lote do medicamento tal como este foi distribuído ao consumo para que possa ser analisada com vistas a verificar a conformidade de requisitos não técnicos do registro sanitário ou legislação aplicável."
+                },
+                {
+                   "Label":"Art. 25",
+                   "Order":2,
+                   "Text":" As amostras de retenção devem, preferencialmente, ser armazenadas no estabelecimento onde é realizada a liberação dos lotes para a venda.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Este local deve dispor de livre acesso às autoridades sanitárias."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 26",
+                   "Order":3,
+                   "Text":" Quando mais de um estabelecimento estiver envolvido na cadeia de fabricação, embalagem, análise, importação e liberação final de lotes, a responsabilidade pela coleta e armazenamento de amostras de retenção deve ser definida em contrato entre as partes envolvidas."
+                }
+             ]
+          },
+          {
+             "Label":"Seção VIII",
+             "Order":8,
+             "Text":"Da gestão das amostras de referência e de retenção no caso do encerramento das atividades de um fabricante",
+             "Children":[
+                {
+                   "Label":"Art. 27",
+                   "Order":1,
+                   "Text":" Caso permaneçam lotes de medicamentos não expirados fabricados por empresa que tenha encerrado suas atividades, o fabricante deve tomar providências para a transferência de amostras de referência e de retenção, e da documentação pertinente de Boas Práticas de Fabricação para um autorizado junto à Anvisa."
+                },
+                {
+                   "Label":"Art. 28",
+                   "Order":2,
+                   "Text":" O fabricante deve garantir à autoridade competente que as disposições relativas à armazenagem são satisfatórias e que as amostras podem, se necessário, ser prontamente acessadas e analisadas.",
+                   "Children":[
+                      {
+                         "Label":"§1",
+                         "Order":1,
+                         "Text":" Quando existirem situações que evitem o cumprimento do disposto, as providências necessárias podem ser delegadas a outro fabricante."
+                      },
+                      {
+                         "Label":"§2",
+                         "Order":2,
+                         "Text":" O detentor do registro do produto é responsável pela delegação e pelo fornecimento de todas as informações necessárias à autoridade sanitária."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 29",
+                   "Order":3,
+                   "Text":" O titular do registro sanitário do produto deve, no que tange à adequação das medidas propostas para o armazenamento de amostras de referência e de retenção, consultar a autoridade sanitária de cada país em que qualquer lote dentro da validade tenha sido colocado no mercado."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO III",
+       "Text":"DAS DISPOSIÇÕES FINAIS",
+       "Order":3,
+       "Children":[
+          {
+             "Label":"Art. 30",
+             "Order":1,
+             "Text":" Excetuam-se da duração de armazenamento prevista no art. 11, as soluções parenterais de grande volume e os concentrados polieletrolíticos para hemodiálise, os quais devem ser armazenadas por 30 (trinta) dias após o período de validade."
+          },
+          {
+             "Label":"Art. 31",
+             "Order":2,
+             "Text":" O descumprimento das disposições contidas nesta Instrução Normativa constitui infração sanitária, nos termos da Lei n. 6.437, de 20 de agosto de 1977, sem prejuízo das responsabilidades civil, administrativa e penal cabíveis."
+          },
+          {
+             "Label":"Art. 32",
+             "Order":3,
+             "Text":" Esta Instrução Normativa entra em vigor 45 (quarenta e cinco) dias após sua publicação."
+          }
+       ]
+    }
+ ]

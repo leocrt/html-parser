@@ -1,0 +1,730 @@
+[
+    {
+       "Label":"CAPÍTULO I",
+       "Text":"DAS DISPOSIÇÕES INICIAIS",
+       "Order":1,
+       "Children":[
+          {
+             "Label":"Seção I",
+             "Order":1,
+             "Text":"Do objetivo",
+             "Children":[
+                {
+                   "Label":"Art. 1",
+                   "Order":1,
+                   "Text":"Esta Instrução Normativa possui o objetivo de adotar as diretrizes de Boas Práticas de Fabricação relacionadas ao uso da radiação ionizante do Esquema de Cooperação em Inspeção Farmacêutica, PIC/S, como requisitos complementares a serem seguidos na fabricação de medicamentos em adição às Diretrizes Gerais de Boas Práticas de Fabricação de Medicamentos."
+                }
+             ]
+          },
+          {
+             "Label":"Seção II",
+             "Order":2,
+             "Text":"Da abrangência",
+             "Children":[
+                {
+                   "Label":"Art. 2",
+                   "Order":1,
+                   "Text":"Esta Instrução Normativa se aplica às empresas que utilizam de radiações ionizantes na fabricação de medicamentos, incluindo os medicamentos experimentais."
+                }
+             ]
+          },
+          {
+             "Label":"Seção III",
+             "Order":3,
+             "Text":"Das definições",
+             "Children":[
+                {
+                   "Label":"Art. 3",
+                   "Order":1,
+                   "Text":" Para efeito desta Instrução Normativa, são adotadas as seguintes definições:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"Recipiente de irradiação: o recipiente mais externo do local onde os produtos são  irradiados  "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"Dosimetria: é a medida da dose absorvida pelos dosímetros"
+                      },
+                      {
+                         "Label":"III",
+                         "Order":3,
+                         "Text":"Comissionamento: é o exercício de obtenção e documentação de evidências de  que a irradiadora realiza, dentro de limites pré-estabelecidos e de acordo com a  especificação do processo, consistentemente sua função.  "
+                      }
+                   ]
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO II",
+       "Text":"DAS DISPOSIÇÕES GERAIS",
+       "Order":2,
+       "Children":[
+          {
+             "Label":"Art. 4",
+             "Order":1,
+             "Text":" A radiação ionizante pode ser utilizada durante o processo de fabricação de medicamentos para diferentes finalidades, incluindo a redução da biocarga e a esterilização de matérias-primas, materiais de embalagem, produtos e o tratamento de hemoderivados."
+          },
+          {
+             "Label":"Art. 5",
+             "Order":2,
+             "Text":" Podem ser utilizados na fabricação de medicamentos, dois diferentes processos de irradiação: I -irradiação Gama por uma fonte radioativa  II -irradiação por elétrons (radiação beta) por um acelerador.",
+             "Children":[
+                {
+                   "Label":"I",
+                   "Order":1,
+                   "Text":"irradiação Gama por uma fonte radioativa "
+                },
+                {
+                   "Label":"II",
+                   "Order":2,
+                   "Text":"irradiação por elétrons (radiação beta) por um acelerador."
+                }
+             ]
+          },
+          {
+             "Label":"Art. 6",
+             "Order":3,
+             "Text":"Dois diferentes modelos de processamento por irradiação gama podem ser empregados: I -por lote: os produtos são dispostos em locais fixos ao redor da fonte de radiação e não podem ser carregados ou descarregados enquanto a fonte de radiação é exposta  II -continuamente: um sistema automático transporta os produtos para a célula de radiação, os produtos passam pela fonte de radiação exposta ao longo de um caminho definido e a uma velocidade específica, e saem da célula.",
+             "Children":[
+                {
+                   "Label":"I",
+                   "Order":1,
+                   "Text":"por lote: os produtos são dispostos em locais fixos ao redor da fonte de radiação  e não podem ser carregados ou descarregados enquanto a fonte de radiação é exposta  "
+                },
+                {
+                   "Label":"II",
+                   "Order":2,
+                   "Text":"continuamente: um sistema automático transporta os produtos para a célula de  radiação, os produtos passam pela fonte de radiação exposta ao longo de um caminho  definido e a uma velocidade específica, e saem da célula.  "
+                }
+             ]
+          },
+          {
+             "Label":"Art. 7",
+             "Order":4,
+             "Text":"No caso da irradiação por elétrons, o produto é transportado por esteira através de uma fonte contínua ou intermitente de elétrons de alta energia (radiação beta) que é irradiada pela frente e por trás do caminho percorrido pelo produto."
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO III",
+       "Text":"DAS DISPOSIÇÕES ESPECÍFICAS",
+       "Order":3,
+       "Children":[
+          {
+             "Label":"Seção I",
+             "Order":1,
+             "Text":"Das responsabilidades",
+             "Children":[
+                {
+                   "Label":"Art. 8",
+                   "Order":1,
+                   "Text":" O tratamento por radiação ionizante pode ser realizado pela própria indústria farmacêutica ou por meio de contrato com terceiros que possuam autorização para sua realização."
+                },
+                {
+                   "Label":"Art. 9",
+                   "Order":2,
+                   "Text":" A indústria farmacêutica deve ser responsável pela qualidade do produto, incluindo o cumprimento do objetivo da irradiação."
+                },
+                {
+                   "Label":"Art. 10",
+                   "Order":3,
+                   "Text":"O terceiro contratado deve ser responsável por garantir que a dose de radiação exigida pelo fabricante seja entregue ao recipiente de irradiação."
+                },
+                {
+                   "Label":"Art. 11",
+                   "Order":4,
+                   "Text":"A dose de irradiação requerida, incluindo os limites justificados, deve ser estabelecida pelo registro do produto correspondente."
+                }
+             ]
+          },
+          {
+             "Label":"Seção II",
+             "Order":2,
+             "Text":"Da dosimetria",
+             "Children":[
+                {
+                   "Label":"Art. 12",
+                   "Order":1,
+                   "Text":"O entendimento e uso correto da dosimetria é essencial para a validação, comissionamento e controle do processo."
+                },
+                {
+                   "Label":"Art. 13",
+                   "Order":2,
+                   "Text":"A calibração de cada lote dos dosímetros usados na rotina deve ser rastreável a um padrão nacional ou internacional.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"O período de validade da calibração deve ser estabelecido, justificado e seguido."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 14",
+                   "Order":3,
+                   "Text":"O mesmo instrumento deve ser usado para estabelecer a curva de calibração dos dosímetros de rotina e para medir a mudança na sua absorbância após a irradiação.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Se um instrumento diferente for usado, a absorbância absoluta de cada instrumento deve ser estabelecida."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 15",
+                   "Order":4,
+                   "Text":"Dependendo do tipo de dosímetro utilizado, deve ser levado em consideração as possíveis causas de imprecisão, incluindo a alteração nos níveis de umidade, alteração de temperatura, tempo decorrido entre a irradiação e a medição e a dosagem."
+                },
+                {
+                   "Label":"Art. 16",
+                   "Order":5,
+                   "Text":"O comprimento de onda do instrumento usado para medir a mudança na absorbância dos dosímetros e o instrumento usado para medir sua espessura devem ser submetidos a verificações regulares de calibração, em intervalos estabelecidos com base na estabilidade, finalidade e uso."
+                }
+             ]
+          },
+          {
+             "Label":"Seção III",
+             "Order":3,
+             "Text":"Da validação do processo",
+             "Children":[
+                {
+                   "Label":"Art. 17",
+                   "Order":1,
+                   "Text":"A validação deve demonstrar que o processo entrega a dose absorvida requerida ao produto, alcançando os resultados esperados."
+                },
+                {
+                   "Label":"Art. 18",
+                   "Order":2,
+                   "Text":"A validação deve incluir o mapeamento da dosagem para estabelecer a distribuição da dose absorvida dentro do recipiente de irradiação quando carregado com produto em uma configuração pré-definida."
+                },
+                {
+                   "Label":"Art. 19",
+                   "Order":3,
+                   "Text":"A especificação do processo de irradiação deve incluir, minimamente, os seguintes itens:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"detalhes da embalagem do produto  "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"o padrão de configuração da carga dentro do recipiente de irradiação:  a) cuidados especiais devem ser tomados, sempre que uma configuração mista de  produtos for permitida no recipiente de irradiação, impedindo a subdosagem de produtos  densos ou sombreamento de outros produtos por um produto denso  b) cada configuração mista permitida de produtos deve ser especificada e validado.  ",
+                         "Children":[
+                            {
+                               "Label":"a)",
+                               "Order":1,
+                               "Text":"cuidados especiais devem ser tomados, sempre que uma configuração mista de produtos for permitida no recipiente de irradiação, impedindo a subdosagem de produtos densos ou sombreamento de outros produtos por um produto denso;"
+                            },
+                            {
+                               "Label":"b)",
+                               "Order":2,
+                               "Text":"cada configuração mista permitida de produtos deve ser especificada e validado."
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"III",
+                         "Order":3,
+                         "Text":"a configuração dos recipientes de irradiação ao redor da fonte, no caso do modo  de irradiação por lote, ou o caminho através da célula, no caso do modo de irradiação  contínuo  "
+                      },
+                      {
+                         "Label":"IV",
+                         "Order":4,
+                         "Text":"limites máximo e mínimo de dose absorvida no produto e dosimetria de rotina  associada  "
+                      },
+                      {
+                         "Label":"V",
+                         "Order":5,
+                         "Text":"limites máximo e mínimo de dose absorvida no recipiente de irradiação e  dosimetria de rotina associada para monitoramento  "
+                      },
+                      {
+                         "Label":"VI",
+                         "Order":6,
+                         "Text":"outros parâmetros do processo, incluindo dosagem, tempo máximo de  exposição e número de exposições.  "
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 20",
+                   "Order":4,
+                   "Text":"Quando a irradiação é realizada por terceiro, ao menos os itens IV e V da especificação do processo de irradiação devem fazer parte do contrato de terceirização."
+                }
+             ]
+          },
+          {
+             "Label":"Seção IV",
+             "Order":4,
+             "Text":"Do comissionamento da planta",
+             "Children":[
+                {
+                   "Label":"Subseção I",
+                   "Order":1,
+                   "Text":"Das generalidades",
+                   "Children":[
+                      {
+                         "Label":"Art. 21",
+                         "Order":1,
+                         "Text":"A demonstração dos limites pré-estabelecidos pelo comissionamento deve considerar que estes são as doses limites máximas e mínimas absorvidas pelo recipiente de irradiação.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"Deve ser impossível que variações na dose para fora destes limites ocorram sem o conhecimento do operador."
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 22",
+                         "Order":2,
+                         "Text":"O comissionamento deve incluir os seguintes elementos:",
+                         "Children":[
+                            {
+                               "Label":"I",
+                               "Order":1,
+                               "Text":"projeto"
+                            },
+                            {
+                               "Label":"II",
+                               "Order":2,
+                               "Text":"mapeamento da dosagem  "
+                            },
+                            {
+                               "Label":"III",
+                               "Order":3,
+                               "Text":"documentação  "
+                            },
+                            {
+                               "Label":"IV",
+                               "Order":4,
+                               "Text":"requisitos para o recomissionamento.  "
+                            }
+                         ]
+                      }
+                   ]
+                },
+                {
+                   "Label":"Subseção II",
+                   "Order":2,
+                   "Text":"Do projeto dos irradiadores gama",
+                   "Children":[
+                      {
+                         "Label":"Art. 23",
+                         "Order":1,
+                         "Text":" Para cálculo da dose total absorvida e recebida por uma parte específica de um recipiente de irradiação, devem ser considerados os seguintes fatores:",
+                         "Children":[
+                            {
+                               "Label":"I",
+                               "Order":1,
+                               "Text":"atividade e geometria da fonte  "
+                            },
+                            {
+                               "Label":"II",
+                               "Order":2,
+                               "Text":"distância da fonte ao recipiente  "
+                            },
+                            {
+                               "Label":"III",
+                               "Order":3,
+                               "Text":"duração da irradiação controlada pelo ajuste do temporizador ou pela  velocidade da esteira transportadora  "
+                            },
+                            {
+                               "Label":"IV",
+                               "Order":4,
+                               "Text":"composição e densidade do material, incluindo outros produtos, entre a fonte e  a parte específica do recipiente.  "
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 24",
+                         "Order":2,
+                         "Text":" Para o cálculo da dosagem total absorvida, deve ser considerado, em modelos de irradiação contínua, o trajeto dos recipientes através do irradiador e no modelo de irradiação por lotes, a configuração de carga e o número de ciclos de exposição."
+                      },
+                      {
+                         "Label":"Art. 25",
+                         "Order":3,
+                         "Text":" Para um irradiador contínuo com um caminho fixo ou um irradiador por lote com uma configuração de carga fixa, com uma fonte de potência definida e um tipo de produto, o parâmetro fundamental que deve ser controlado pelo operador é a velocidade do transportador ou o tempo, respectivamente."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Subseção III",
+                   "Order":3,
+                   "Text":"Do mapeamento da dose nos irradiadores gama",
+                   "Children":[
+                      {
+                         "Label":"Art. 26",
+                         "Order":1,
+                         "Text":" Para o procedimento de mapeamento da dosagem, o irradiador deve ser preenchido com os recipientes de irradiação, contendo modelo de produtos ou um produto representativo de densidade uniforme."
+                      },
+                      {
+                         "Label":"Art. 27",
+                         "Order":2,
+                         "Text":"Os dosímetros devem ser colocados ao longo de, minimamente, três recipientes de irradiação carregados, que devem ser passados através do irradiador, rodeados por recipientes de irradiação semelhantes ou modelos de produtos.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"Se o produto não for distribuído uniformemente, os dosímetros devem ser colocados em um número maior de recipientes."
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 28",
+                         "Order":3,
+                         "Text":"O posicionamento dos dosímetros deve ser disposto de acordo com o tamanho do recipiente de irradiação, de maneira uniforme, representado todas as posições do recipiente, incluindo sua superfície externa.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"Caso as posições de mínima e máxima dosagens sejam conhecidas a partir de mapeamentos anteriores, os dosímetros de regiões de dose mediana podem ser removidos e concentrados naquelas regiões."
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 29",
+                         "Order":4,
+                         "Text":"O mapeamento deve fornecer as doses mínimas e máximas absorvidas no produto e na superfície do recipiente de irradiação para um dado conjunto de parâmetros de operação do irradiador, para uma dada densidade de produto e configuração de carga."
+                      },
+                      {
+                         "Label":"Art. 30",
+                         "Order":5,
+                         "Text":"Os dosímetros de referência devem ser usados para o exercício de mapeamento de dosagens, devido à sua maior precisão.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"Os dosímetros de rotina podem ser permitidos, mas é preferível que se coloque dosímetros de referência nas posições esperadas de dosagem mínima e máxima e na posição de monitoramento de rotina, em cada um dos recipientes de irradiação replicados."
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 31",
+                         "Order":6,
+                         "Text":"Os valores observados da dose total absorvida terão uma incerteza aleatória associada que pode ser estimada a partir das variações nas medições replicadas."
+                      },
+                      {
+                         "Label":"Art. 32",
+                         "Order":7,
+                         "Text":" A dose mínima observada, medida pelos dosímetros de rotina, necessária para assegurar que todos os recipientes de irradiação recebam a dosagem mínima necessária, deve ser definida com conhecimento da variabilidade aleatória dos dosímetros de rotina utilizados."
+                      },
+                      {
+                         "Label":"Art. 33",
+                         "Order":8,
+                         "Text":"Os parâmetros do irradiador devem ser mantidos constantes, monitorados e registrados juntamente com os resultados de dosimetria e todos os outros registros gerados devem ser mantidos."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Subseção IV",
+                   "Order":4,
+                   "Text":"Do projeto dos irradiadores por feixe de elétrons",
+                   "Children":[
+                      {
+                         "Label":"Art. 34",
+                         "Order":1,
+                         "Text":" A dose absorvida recebida por uma porção particular do produto é determinada pelos seguintes fatores:",
+                         "Children":[
+                            {
+                               "Label":"I",
+                               "Order":1,
+                               "Text":"características do feixe, que são: energia dos elétrons, corrente média do feixe,  largura e uniformidade de varredura  "
+                            },
+                            {
+                               "Label":"II",
+                               "Order":2,
+                               "Text":"velocidade da esteira transportadora  "
+                            },
+                            {
+                               "Label":"III",
+                               "Order":3,
+                               "Text":"a composição e densidade do produto"
+                            },
+                            {
+                               "Label":"IV",
+                               "Order":4,
+                               "Text":"composição, densidade e espessura do material entre a janela de saída e a  porção particular do produto  "
+                            },
+                            {
+                               "Label":"",
+                               "Order":5,
+                               "Text":"V - a distância entre a janela de saída e o recipiente.  "
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 35",
+                         "Order":2,
+                         "Text":" As características do feixe e a velocidade da esteira transportadora devem ser controlados pelo operador."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Subseção V",
+                   "Order":5,
+                   "Text":"Do mapeamento da dose dos irradiadores por feixe de elétrons",
+                   "Children":[
+                      {
+                         "Label":"Art. 36",
+                         "Order":1,
+                         "Text":" Para o procedimento de mapeamento da dosagem, os dosímetros devem ser colocados entre camadas de folhas absorventes homogêneas, para a simulação de um modelo de produto, ou entre camadas de produtos representativos de densidade uniforme, de modo que, pelo menos, dez medições possam ser feitas dentro da faixa máxima dos elétrons."
+                      },
+                      {
+                         "Label":"Art. 37",
+                         "Order":2,
+                         "Text":"Os parâmetros do irradiador devem ser mantidos constantes, monitorados e registrados durante o mapeamento da dosagem."
+                      },
+                      {
+                         "Label":"Art. 38",
+                         "Order":3,
+                         "Text":"Os resultados de dosimetria e todos os outros registros gerados devem ser mantidos"
+                      }
+                   ]
+                },
+                {
+                   "Label":"Subseção VI",
+                   "Order":6,
+                   "Text":"Do mapeamento da dose dos irradiadores por feixe de elétrons",
+                   "Children":[
+                      {
+                         "Label":"Art. 39",
+                         "Order":1,
+                         "Text":"O comissionamento deve ser repetido, se houver uma mudança no processo ou no irradiador que possa afetar a distribuição da dosagem nos recipientes de irradiação."
+                      },
+                      {
+                         "Label":"Art. 40",
+                         "Order":2,
+                         "Text":" A extensão do recomissionamento depende da extensão da mudança no irradiador ou da carga."
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção V",
+             "Order":5,
+             "Text":"Das instalações",
+             "Children":[
+                {
+                   "Label":"Art. 41",
+                   "Order":1,
+                   "Text":" As instalações devem ser projetadas e operadas para segregar recipientes irradiados de não irradiados, evitando trocas.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Quando os materiais são manuseados dentro de recipientes de irradiação fechados, pode não ser necessário separar os materiais farmacêuticos dos não farmacêuticos, desde que não haja risco de os primeiros serem contaminados pelos últimos."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 42",
+                   "Order":2,
+                   "Text":"Qualquer possibilidade de contaminação dos produtos por radionucletídeos da fonte de radiação deve ser excluída."
+                }
+             ]
+          },
+          {
+             "Label":"Seção VI",
+             "Order":6,
+             "Text":"Do processamento  Art. 43.Os recipientes de irradiação devem ser configurados de acordo com o padrão de carga especificado e estabelecido durante a validação. Art. 44. Durante o processo, a dose de radiação para os recipientes de irradiação deve ser monitorada usando procedimentos de dosimetria validados. Parágrafo único. A relação entre a dose de radiação nos recipientes e a dose absorvida pelo produto dentro do recipiente deve ter sido estabelecida durante a validação do processo e o comissionamento da planta. Art. 45.Os indicadores de radiação devem ser utilizados como auxílio para diferenciar os recipientes irradiados dos não irradiados. Parágrafo único. Não devem ser utilizados como único meio de diferenciação ou como indicação de um processamento satisfatório. Art. 46.O processamento de cargas mistas de recipientes dentro da célula de irradiação somente deve ser feito quando se sabe, a partir de ensaios de comissionamento ou outras evidências, que a dosagem de radiação recebida por recipientes individuais permanece dentro dos limites especificados. Art. 47.Quando a dose de radiação necessária é dada durante mais do que uma exposição ou passagem através da célula, esta deve ser feita com autorização do detentor do registro e ocorrer dentro de um período pré-determinado. Art. 48.As interrupções não planejadas durante a irradiação devem ser notificadas ao detentor do registro, caso excedam o processo de irradiação para além do período previamente acordado. Art. 49.Os produtos não irradiados devem ser segregados dos produtos irradiados em todos os momentos e os métodos para tal ação incluem o uso de indicadores de radiação e o projeto apropriado das instalações.",
+             "Children":[
+                 {
+                    "Label":"Art 43.",
+                    "Order":1,
+                    "Text": "Os recipientes de irradiação devem ser configurados de acordo com o padrão de carga especificado e estabelecido durante a validação."
+                 },
+                 {
+                    "Label":"Art 44.",
+                    "Order":2,
+                    "Text": "Durante o processo, a dose de radiação para os recipientes de irradiação deve ser monitorada usando procedimentos de dosimetria validados.",
+                    "Children":[
+                        {
+                            "Label":"Parágrafo único. ",
+                            "Order":1,
+                            "Text": "A relação entre a dose de radiação nos recipientes e a dose absorvida pelo produto dentro do recipiente deve ter sido estabelecida durante a validação do processo e o comissionamento da planta"
+                        }                       
+                    ]
+                },
+                 {
+                    "Label":"Art 45.",
+                    "Order":3,
+                    "Text": "Os indicadores de radiação devem ser utilizados como auxílio para diferenciar os recipientes irradiados dos não irradiados.",
+                    "Children":[
+                        {
+                            "Label":"Parágrafo único. ",
+                            "Order":1,
+                            "Text": "Não devem ser utilizados como único meio de diferenciação ou como indicação de um processamento satisfatório."
+                        } 
+                    ]
+                },
+                {
+                    "Label":"Art 46.",
+                    "Order":4,
+                    "Text": "O processamento de cargas mistas de recipientes dentro da célula de irradiação somente deve ser feito quando se sabe, a partir de ensaios de comissionamento ou outras evidências, que a dosagem de radiação recebida por recipientes individuais permanece dentro dos limites especificados"
+                 },
+                 {
+                    "Label":"Art 47.",
+                    "Order":5,
+                    "Text": "Quando a dose de radiação necessária é dada durante mais do que uma exposição ou passagem através da célula, esta deve ser feita com autorização do detentor do registro e ocorrer dentro de um período pré-determinado"
+                 },
+                 {
+                    "Label":"Art 48.",
+                    "Order":6,
+                    "Text": "As interrupções não planejadas durante a irradiação devem ser notificadas ao detentor do registro, caso excedam o processo de irradiação para além do período previamente acordado"
+                 },
+                 {
+                    "Label":"Art 49.",
+                    "Order":7,
+                    "Text": "Os produtos não irradiados devem ser segregados dos produtos irradiados em todos os momentos e os métodos para tal ação incluem o uso de indicadores de radiação e o projeto apropriado das instalações"
+                 },
+                {
+                   "Label":"Subseção I",
+                   "Order":8,
+                   "Text":"Do processamento por irradiadores gama",
+                   "Children":[
+                      {
+                         "Label":"Art. 50",
+                         "Order":1,
+                         "Text":"No modo de processamento contínuo, a organização dos dosímetros deve ser tal que permita pelo menos dois dosímetros expostos a irradiação durante todo o tempo."
+                      },
+                      {
+                         "Label":"Art. 51",
+                         "Order":2,
+                         "Text":"No modo de processamento por lotes, pelo menos dois dosímetros devem ser expostos à posição de mínima dose."
+                      },
+                      {
+                         "Label":"Art. 52",
+                         "Order":3,
+                         "Text":"No modo de processamento contínuo, deve haver uma indicação positiva da posição correta da fonte e um intertravamento entre a posição da fonte e a esteira transportadora.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"A velocidade da esteira transportadora deve ser monitorada continuamente e registrada."
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 53",
+                         "Order":4,
+                         "Text":"No modo de processamento por lotes, o movimento da fonte e os tempos de exposição para cada lote devem ser monitorados e registrados."
+                      },
+                      {
+                         "Label":"Art. 54",
+                         "Order":5,
+                         "Text":"A manutenção da dose desejada quando do decaimento da fonte ou do acréscimo de outras deve ser garantida pelo ajuste do tempo ou da velocidade da esteira transportadora.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"O período de validade deste ajuste deve ser registrado e seguido."
+                            }
+                         ]
+                      }
+                   ]
+                },
+                {
+                   "Label":"Subseção II",
+                   "Order":9,
+                   "Text":"Do processamento por irradiadores de feixes de elétrons",
+                   "Children":[
+                      {
+                         "Label":"Art. 55",
+                         "Order":1,
+                         "Text":" Deve ser colocado um dosímetro em cada recipiente de irradiação."
+                      },
+                      {
+                         "Label":"Art. 56",
+                         "Order":2,
+                         "Text":" Deve haver um registro contínuo da corrente média do feixe, energia dos elétrons, largura da varredura e velocidade do transportador.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"Essas variáveis, além da velocidade do transportador, precisam ser controladas dentro dos limites definidos estabelecidos durante o comissionamento, uma vez que estão sujeitas a mudanças instantâneas."
+                            }
+                         ]
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção VII",
+             "Order":7,
+             "Text":"Da documentação",
+             "Children":[
+                {
+                   "Label":"Art. 57",
+                   "Order":1,
+                   "Text":"O número de recipientes recebidos, irradiados e despachados devem ser reconciliados entre si e com a documentação associada e qualquer discrepância deve ser registrada e investigada."
+                },
+                {
+                   "Label":"Art. 58",
+                   "Order":2,
+                   "Text":"O operador da instalação de irradiação deve certificar por escrito o intervalo das doses recebidas por cada recipiente irradiado dentro de um lote ou entrega."
+                },
+                {
+                   "Label":"Art. 59",
+                   "Order":3,
+                   "Text":"Registros de processo e controle para cada lote de irradiação devem ser verificados e assinados por responsável designado e retidos.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"O método, o local e a retenção devem ser acordados entre o operador da instalação e o detentor do registro do produto."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 60",
+                   "Order":4,
+                   "Text":" A documentação associada com a validação e comissionamento da planta deve ser mantida pelo período mais longo entre um ano após a data de expiração dos lotes processados ou, pelo menos, cinco anos após a liberação do último produto processado pela planta."
+                }
+             ]
+          },
+          {
+             "Label":"Seção VIII",
+             "Order":8,
+             "Text":"Do monitoramento microbiológico",
+             "Children":[
+                {
+                   "Label":"Art. 61",
+                   "Order":1,
+                   "Text":"O monitoramento microbiológico é de responsabilidade do fabricante farmacêutico."
+                },
+                {
+                   "Label":"Art. 62",
+                   "Order":2,
+                   "Text":"O monitoramento microbiológico pode incluir o monitoramento ambiental das áreas de fabricação do produto e o monitoramento do produto pré-irradiação, conforme especificado no registro sanitário."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO IV",
+       "Text":"DAS DISPOSIÇÕES FINAIS",
+       "Order":4,
+       "Children":[
+          {
+             "Label":"Art. 63",
+             "Order":1,
+             "Text":"O descumprimento das disposições contidas nesta Instrução Normativa constitui infração sanitária, nos termos da Lei n. 6.437, de 20 de agosto de 1977, sem prejuízo das responsabilidades civil, administrativa e penal cabíveis."
+          },
+          {
+             "Label":"Art. 64",
+             "Order":2,
+             "Text":" Esta Instrução Normativa entra em vigor 45 (quarenta e cinco) dias após sua publicação."
+          }
+       ]
+    }
+ ]

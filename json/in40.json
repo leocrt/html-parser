@@ -1,0 +1,271 @@
+[
+    {
+       "Label":"CAPÍTULO I",
+       "Text":"DAS DISPOSIÇÕES INICIAIS",
+       "Order":1,
+       "Children":[
+          {
+             "Label":"Seção I",
+             "Order":1,
+             "Text":"Do objetivo",
+             "Children":[
+                {
+                   "Label":"Art. 1",
+                   "Order":1,
+                   "Text":" Esta Instrução Normativa possui o objetivo de adotar as diretrizes de Boas Práticas de Fabricação de Medicamentos relacionadas às atividades de amostragem de matérias-primas e materiais de embalagem do Esquema de Cooperação em Inspeção Farmacêutica, PIC/S, como requisitos complementares a serem seguidos na fabricação de medicamentos em adição às Diretrizes Gerais de Boas Práticas de Fabricação de Medicamentos."
+                }
+             ]
+          },
+          {
+             "Label":"Seção II",
+             "Order":2,
+             "Text":"Da abrangência",
+             "Children":[
+                {
+                   "Label":"Art. 2",
+                   "Order":1,
+                   "Text":" Esta Instrução Normativa se aplica às empresas que realizam as operações relativas à amostragem de matéria-prima e materiais de embalagem utilizados na fabricação de medicamentos, incluindo os medicamentos experimentais."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO II",
+       "Text":"DAS DISPOSIÇÕES GERAIS",
+       "Order":2,
+       "Children":[
+          {
+             "Label":"Art. 3",
+             "Order":1,
+             "Text":"A amostragem é uma importante operação na qual uma pequena fração de um lote é tomada.",
+             "Children":[
+                {
+                   "Label":"Parágrafo único.",
+                   "Order":1,
+                   "Text":"As decisões sobre lotes de matérias-primas e materiais de embalagem devem ser baseadas em ensaios realizados em amostras representativas."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO III",
+       "Text":"DO PESSOAL",
+       "Order":3,
+       "Children":[
+          {
+             "Label":"Art. 4",
+             "Order":1,
+             "Text":" O pessoal que coleta amostras deve receber treinamento inicial e regular nas disciplinas relevantes para a correta amostragem, que deve incluir: I -planos de amostragem II -procedimentos de amostragem escritos III -técnicas e equipamentos para amostragem IV -riscos de contaminação cruzada V -precauções necessárias em relação a substâncias instáveis ou estéreis VI -conferência da aparência visual de materiais, recipientes e rótulos VII -registros de circunstâncias inesperadas ou incomuns.",
+             "Children":[
+                {
+                   "Label":"I",
+                   "Order":1,
+                   "Text":"planos de amostragem "
+                },
+                {
+                   "Label":"II",
+                   "Order":2,
+                   "Text":"procedimentos de amostragem escritos "
+                },
+                {
+                   "Label":"III",
+                   "Order":3,
+                   "Text":"técnicas e equipamentos para amostragem "
+                },
+                {
+                   "Label":"IV",
+                   "Order":4,
+                   "Text":"riscos de contaminação cruzada "
+                },
+                {
+                   "Label":"V",
+                   "Order":5,
+                   "Text":"precauções necessárias em relação a substâncias instáveis ou estéreis "
+                },
+                {
+                   "Label":"VI",
+                   "Order":6,
+                   "Text":"conferência da aparência visual de materiais, recipientes e rótulos "
+                },
+                {
+                   "Label":"VII",
+                   "Order":7,
+                   "Text":"registros de circunstâncias inesperadas ou incomuns. "
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO IV",
+       "Text":"DAS MATÉRIAS-PRIMAS",
+       "Order":4,
+       "Children":[
+          {
+             "Label":"Art. 5",
+             "Order":1,
+             "Text":" A identidade de um lote de matérias-primas deve ser assegurada por meio de coleta de amostras individuais de todos os recipientes.",
+             "Children":[
+                {
+                   "Label":"Parágrafo único.",
+                   "Order":1,
+                   "Text":"Os ensaios de identificação devem ser realizados em cada amostra individual."
+                }
+             ]
+          },
+          {
+             "Label":"Art. 6",
+             "Order":2,
+             "Text":" É permitido amostrar apenas uma parte dos recipientes quando um procedimento de qualificação dos fabricantes e fornecedores garantir que nenhum recipiente de matérias-primas seja incorretamente rotulado.",
+             "Children":[
+                {
+                   "Label":"§1",
+                   "Order":1,
+                   "Text":"A qualificação prevista no caput deve considerar, pelo menos, os seguintes aspectos:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"a natureza e a condição da qualificação do fabricante e do fornecedor das matérias primas, e a compressão por esses estabelecimentos dos requisitos das Boas Práticas de Fabricação da indústria farmacêutica "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"o sistema de garantia de qualidade do fabricante das matérias-primas "
+                      },
+                      {
+                         "Label":"III",
+                         "Order":3,
+                         "Text":"as condições de fabricação sob as quais as matérias-primas são produzidas e controladas "
+                      },
+                      {
+                         "Label":"IV",
+                         "Order":4,
+                         "Text":"a natureza das matérias-primas e dos medicamentos em que serão utilizados. "
+                      }
+                   ]
+                },
+                {
+                   "Label":"§2",
+                   "Order":2,
+                   "Text":"° Considerando a qualificação prevista no caput, é possível a isenção do teste de identificação em cada recipiente recebido de matéria-prima nos seguintes casos:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"matérias-primas oriundas de uma planta mono produtora "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"matérias-primas provenientes diretamente do fabricante ou em recipientes lacrados do fabricante, sempre que houver histórico de confiabilidade e sejam realizadas auditorias regulares no sistema de Garantia de Qualidade do fabricante do insumo pelo fabricante do medicamento ou organismo acreditado oficialmente. "
+                      }
+                   ]
+                },
+                {
+                   "Label":"§3",
+                   "Order":3,
+                   "Text":"É improvável que este procedimento possa ser satisfatoriamente validado para:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"matérias-primas fornecidas por intermediários, tais como importadores, fracionadores e distribuidores, quando o fabricante é desconhecido ou não auditado pelo fabricante do medicamento "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"matérias-primas utilizadas para produtos parenterais. "
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Art. 7",
+             "Order":3,
+             "Text":" A qualidade de um lote de matérias-primas pode ser atestada pela coleta e análise laboratorial de amostra representativa.",
+             "Children":[
+                {
+                   "Label":"§1",
+                   "Order":1,
+                   "Text":"As amostras coletadas para testes de identidade podem ser usadas para esse propósito."
+                },
+                {
+                   "Label":"§2",
+                   "Order":2,
+                   "Text":"O número de amostras coletadas para a preparação de uma amostra representativa deve ser determinado estatisticamente e especificado em um plano de amostragem."
+                },
+                {
+                   "Label":"§3",
+                   "Order":3,
+                   "Text":"O número de amostras individuais que podem ser misturadas para formar uma amostra composta deve ser definido levando em consideração a natureza do material, o conhecimento do fornecedor e a homogeneidade da amostra composta."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO V",
+       "Text":"MATERIAL DE EMBALAGEM",
+       "Order":5,
+       "Children":[
+          {
+             "Label":"Art. 8",
+             "Order":1,
+             "Text":"O plano de amostragem de materiais de embalagem deve levar em consideração, pelo menos, os seguintes itens: I -a quantidade recebida II -a qualidade requerida III -a natureza do material (por exemplo: materiais de embalagem primários ou materiais de embalagem impressos) IV -os métodos de produção V -o conhecimento do sistema de Garantia da Qualidade do fabricante de materiais de embalagem com base em auditorias.",
+             "Children":[
+                {
+                   "Label":"I",
+                   "Order":1,
+                   "Text":"a quantidade recebida "
+                },
+                {
+                   "Label":"II",
+                   "Order":2,
+                   "Text":"a qualidade requerida "
+                },
+                {
+                   "Label":"III",
+                   "Order":3,
+                   "Text":"a natureza do material (por exemplo: materiais de embalagem primários ou materiais de embalagem impressos) "
+                },
+                {
+                   "Label":"IV",
+                   "Order":4,
+                   "Text":"os métodos de produção "
+                },
+                {
+                   "Label":"V",
+                   "Order":5,
+                   "Text":"o conhecimento do sistema de Garantia da Qualidade do fabricante de materiais de embalagem com base em auditorias. "
+                }
+             ]
+          },
+          {
+             "Label":"Art. 9",
+             "Order":2,
+             "Text":" O número de amostras coletadas deve ser determinado estatisticamente e especificado em um plano de amostragem."
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO VI",
+       "Text":"DISPOSIÇÕES FINAIS",
+       "Order":6,
+       "Children":[
+          {
+             "Label":"Art. 10",
+             "Order":1,
+             "Text":"O descumprimento das disposições contidas nesta Instrução Normativa constitui infração sanitária, nos termos da Lei n. 6.437, de 20 de agosto de 1977, sem prejuízo das responsabilidades civil, administrativa e penal cabíveis."
+          },
+          {
+             "Label":"Art. 11",
+             "Order":2,
+             "Text":"Esta Instrução Normativa entra em vigor 45 (quarenta e cinco) dias após sua publicação."
+          }
+       ]
+    }
+ ]

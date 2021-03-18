@@ -1,0 +1,428 @@
+[
+    {
+       "Label":"CAPÍTULO I",
+       "Text":"DAS DISPOSIÇÕES INICIAIS",
+       "Order":1,
+       "Children":[
+          {
+             "Label":"Seção I",
+             "Order":1,
+             "Text":"Do objetivo",
+             "Children":[
+                {
+                   "Label":"Art. 1",
+                   "Order":1,
+                   "Text":"Esta Instrução Normativa possui o objetivo de adotar as diretrizes de Boas Práticas de Fabricação de Fitoterápicos do Esquema de Cooperação em Inspeção Farmacêutica, PIC/S, como requisitos complementares a serem seguidos na fabricação de fitoterápicos em adição às Diretrizes Gerais de Boas Práticas de Fabricação de Medicamentos."
+                }
+             ]
+          },
+          {
+             "Label":"Seção II",
+             "Order":2,
+             "Text":"Da abrangência",
+             "Children":[
+                {
+                   "Label":"Art. 2",
+                   "Order":1,
+                   "Text":"Esta Instrução Normativa se aplica às empresas que realizam as operações envolvidas na fabricação de fitoterápicos, incluindo os medicamentos experimentais."
+                },
+                {
+                   "Label":"Art. 3",
+                   "Order":2,
+                   "Text":"Esta Instrução Normativa também se aplica a todas as matérias-primas vegetais, que compreende a planta medicinal, a droga vegetal ou o derivado vegetal."
+                },
+                {
+                   "Label":"Art. 4",
+                   "Order":3,
+                   "Text":"Para fins desta Resolução e das instruções normativas vinculadas a ela, aplicam-se as seguintes definições:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"derivado vegetal: produto da extração da planta medicinal fresca ou da droga vegetal, que contenha as substâncias responsáveis pela ação terapêutica, podendo ocorrer na forma de extrato, óleo fixo e volátil, cera, exsudato e outros  "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"droga vegetal: planta medicinal, ou suas partes, que contenham as substâncias responsáveis pela ação terapêutica, após processos de coleta/colheita, estabilização, quando aplicável, e secagem, podendo estar na forma íntegra, rasurada, triturada ou pulverizada  "
+                      },
+                      {
+                         "Label":"III",
+                         "Order":3,
+                         "Text":"fitoterápico: produto obtido de matéria-prima ativa vegetal, exceto substâncias isoladas, com finalidade profilática, curativa ou paliativa, incluindo medicamento fitoterápico e produto tradicional fitoterápico, podendo ser simples, quando o ativo é proveniente de uma única espécie vegetal medicinal, ou composto, quando o ativo é proveniente de mais de uma espécie vegetal  "
+                      },
+                      {
+                         "Label":"IV",
+                         "Order":4,
+                         "Text":"insumo farmacêutico ativo vegetal (IFAV): matéria-prima ativa vegetal, ou seja, droga ou derivado vegetal, utilizada no processo de fabricação de um fitoterápico  "
+                      },
+                      {
+                         "Label":"V",
+                         "Order":5,
+                         "Text":"marcador: substância ou classe de substâncias (ex.: alcaloides, flavonoides, ácidos graxos, etc.) utilizada como referência no controle da qualidade da matéria-prima vegetal e do fitoterápico, preferencialmente tendo correlação com o efeito terapêutico. O marcador pode ser do tipo ativo, quando relacionado com a atividade terapêutica do fitocomplexo, ou analítico, quando não demonstrada, até o momento, sua relação com a atividade terapêutica do fitocomplexo  "
+                      },
+                      {
+                         "Label":"VI",
+                         "Order":6,
+                         "Text":"matéria-prima vegetal: compreende a planta medicinal, a droga vegetal ou o derivado vegetal  "
+                      },
+                      {
+                         "Label":"VII",
+                         "Order":7,
+                         "Text":"planta medicinal: espécie vegetal, cultivada ou não, utilizada com propósitos terapêuticos. "
+                      }
+                   ]
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO II",
+       "Text":"DAS DISPOSIÇÕES GERAIS",
+       "Order":2,
+       "Children":[
+          {
+             "Label":"Seção I",
+             "Order":1,
+             "Text":"Da introdução",
+             "Children":[
+                {
+                   "Label":"Art. 5",
+                   "Order":1,
+                   "Text":"Devido a sua natureza complexa e variável, o controle das matérias-primas vegetais, a estocagem e o processamento devem assumir uma particular importância na fabricação de fitoterápicos."
+                },
+                {
+                   "Label":"Art. 6",
+                   "Order":2,
+                   "Text":" As matérias-primas vegetais utilizadas na fabricação de um produto fitoterápico podem ser plantas medicinais, drogas vegetais ou derivados vegetais.",
+                   "Children":[
+                      {
+                         "Label":"§1",
+                         "Order":1,
+                         "Text":"A droga vegetal deve ser de qualidade compatível com seu uso, e dados de suporte a esta devem ser providos ao fabricante da preparação ou do medicamento fitoterápico."
+                      },
+                      {
+                         "Label":"§2",
+                         "Order":2,
+                         "Text":"A garantia da qualidade consistente da droga vegetal deve perpassar pela aquisição de informações de sua produção agrícola."
+                      },
+                      {
+                         "Label":"§3",
+                         "Order":3,
+                         "Text":"As disposições de Boas Práticas Agrícolas e colheita devem ser seguidas."
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção II",
+             "Order":2,
+             "Text":"Da aplicabilidade",
+             "Children":[
+                {
+                   "Label":"Art. 7",
+                   "Order":1,
+                   "Text":" A aplicabilidade das Boas Práticas de Fabricação ao fitoterápico e suas matérias-primas vegetais depende da fase do processamento."
+                },
+                {
+                   "Label":"Art. 8",
+                   "Order":2,
+                   "Text":" A depender da fase, podem ser aplicadas a regulamentação da atividade agrícola, as boas práticas de fabricação de insumos farmacêuticos ativos ou as boas práticas de fabricação de medicamentos."
+                },
+                {
+                   "Label":"Art. 9",
+                   "Order":3,
+                   "Text":"O Anexo determina a aplicabilidade de cada regulamentação de acordo com a fase do processamento."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO III",
+       "Text":"DAS DISPOSIÇÕES ESPECÍFICAS",
+       "Order":3,
+       "Children":[
+          {
+             "Label":"Seção I",
+             "Order":1,
+             "Text":"Das Instalações",
+             "Children":[
+                {
+                   "Label":"Subseção I",
+                   "Order":1,
+                   "Text":"Das áreas de armazenamento",
+                   "Children":[
+                      {
+                         "Label":"Art. 10",
+                         "Order":1,
+                         "Text":"As drogas vegetais devem ser armazenadas em áreas separadas."
+                      },
+                      {
+                         "Label":"Art. 11",
+                         "Order":2,
+                         "Text":" As áreas de armazenamento devem ser dotadas de proteção contra a entrada de insetos ou outros animais, especialmente roedores."
+                      },
+                      {
+                         "Label":"Art. 12",
+                         "Order":3,
+                         "Text":" Devem ser tomadas medidas efetivas para impedir a propagação de quaisquer desses animais e micro-organismos trazidos com a matérias-prima vegetal, para evitar a fermentação ou crescimento de bolor, e para evitar a contaminação cruzada."
+                      },
+                      {
+                         "Label":"Art. 13",
+                         "Order":4,
+                         "Text":" As matérias-primas vegetais em quarentena devem ser armazenadas em área separada das matérias-primas vegetais aprovadas."
+                      },
+                      {
+                         "Label":"Art. 14",
+                         "Order":5,
+                         "Text":" A área de armazenamento deve ser bem arejada e os recipientes devem estar posicionados de forma a permitir a livre circulação de ar."
+                      },
+                      {
+                         "Label":"Art. 15",
+                         "Order":6,
+                         "Text":" Uma atenção especial deve ser dada à limpeza e boa manutenção das áreas de armazenamento, especialmente quando da geração de partículas e pó."
+                      },
+                      {
+                         "Label":"Art. 16",
+                         "Order":7,
+                         "Text":" Devem ser fornecidas e monitoradas as adequadas condições de armazenamento das drogas vegetais e preparações vegetais, tais como condições especiais de umidade, temperatura ou proteção à luz."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Subseção II",
+                   "Order":2,
+                   "Text":"Das áreas de fabricação",
+                   "Children":[
+                      {
+                         "Label":"Art. 17",
+                         "Order":1,
+                         "Text":" Diretrizes específicas devem ser providas durante as operações de amostragem, pesagem, mistura e tratamento das drogas vegetais e preparações vegetais, sempre que for gerado pó, buscando facilitar a limpeza e evitar a contaminação cruzada como, por exemplo, a extração de pós ou o uso de instalações dedicadas."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Subseção III",
+                   "Order":3,
+                   "Text":"Dos equipamentos",
+                   "Children":[
+                      {
+                         "Label":"Art. 18",
+                         "Order":1,
+                         "Text":" Os equipamentos, materiais filtrantes, entre outros, utilizados no processo de fabricação devem ser compatíveis com o solvente de extração utilizado, a fim de evitar qualquer liberação ou absorção indesejável de substâncias que possam afetar o produto."
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção II",
+             "Order":2,
+             "Text":"Da documentação",
+             "Children":[
+                {
+                   "Label":"Subseção I",
+                   "Order":1,
+                   "Text":"Das especificações para matérias-primas vegetais",
+                   "Children":[
+                      {
+                         "Label":"Art. 19",
+                         "Order":1,
+                         "Text":" Os fabricantes de fitoterápicos devem garantir que utilizam apenas matérias-primas vegetais fabricadas em conformidade com as Boas Práticas de Fabricação e com o registro do produto."
+                      },
+                      {
+                         "Label":"Art. 20",
+                         "Order":2,
+                         "Text":" Deve ser disponibilizada documentação completa sobre as auditorias dos fornecedores de matérias-primas de origem vegetais conduzidas por, ou em nome do, fabricante do medicamento fitoterápico.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"Auditorias para o insumo farmacêutico ativo vegetal são fundamentais para a qualidade das matérias-primas vegetais."
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 21",
+                         "Order":3,
+                         "Text":" O fabricante deve verificar, quando apropriado, se os fornecedores da matéria-prima estão em conformidade com as regulamentações agrícolas pertinentes e, caso contrário, aplicar controles apropria dos de acordo com o Gerenciamento de Riscos à Qualidade."
+                      },
+                      {
+                         "Label":"Art. 22",
+                         "Order":4,
+                         "Text":" Para o atendimento das diretrizes gerais de Boas Práticas de Fabricação previstas na regulamentação específica, a documentação referente às matérias-primas vegetais devem incluir:",
+                         "Children":[
+                            {
+                               "Label":"I",
+                               "Order":1,
+                               "Text":"nomenclatura botânica oficial (gênero, espécie, subespécie/variedade e autor) e outras informações relevantes, como o cultivar e o quimiotipo, devem ser fornecidas  "
+                            },
+                            {
+                               "Label":"II",
+                               "Order":2,
+                               "Text":"detalhes da origem da planta (país ou região de origem e, quando aplicável, cultivo, época da colheita, procedimentos de coleta, possíveis pesticidas utilizados, possível contaminação radioativa, entre outros)"
+                            },
+                            {
+                               "Label":"III",
+                               "Order":3,
+                               "Text":"parte(s) da planta utilizada(s)"
+                            },
+                            {
+                               "Label":"IV",
+                               "Order":4,
+                               "Text":"o sistema de secagem, se utilizada uma planta seca"
+                            },
+                            {
+                               "Label":"V",
+                               "Order":5,
+                               "Text":"descrição da droga vegetal com base em exame visual macroscópico e microscópico"
+                            },
+                            {
+                               "Label":"VI",
+                               "Order":6,
+                               "Text":"testes de identificação adequados incluindo, quando apropriado, testes de identificação para constituintes com atividade terapêutica conhecida, ou marcadores, e testes específicos quando uma droga vegetal é passível de ser adulterada/substituída. Exemplar autêntico de referência deve estar disponível para fins de identificação  "
+                            },
+                            {
+                               "Label":"VII",
+                               "Order":7,
+                               "Text":"determinação de água para droga vegetal, obtido de acordo com a Farmacopeia relevante  "
+                            },
+                            {
+                               "Label":"VIII",
+                               "Order":8,
+                               "Text":"teor dos constituintes com atividade terapêutica conhecida ou, quando apropriado, dos marcadores  "
+                            },
+                            {
+                               "Label":"IX",
+                               "Order":9,
+                               "Text":"métodos adequados para determinar eventual contaminação e limites de pesticidas aceitos de acordo com os métodos pertinentes da Farmacopeia ou, na ausência destes, com um método adequadamente validado, salvo justificativa em contrário e quando aplicável  "
+                            },
+                            {
+                               "Label":"X",
+                               "Order":10,
+                               "Text":"testes para determinar contaminação fúngica e/ou microbiana, incluindo aflatoxinas, outras micotoxinas, infestações de pragas e seus limites de aceitação, quando aplicável  "
+                            },
+                            {
+                               "Label":"XI",
+                               "Order":11,
+                               "Text":"testes para metais pesados e para possíveis contaminantes e adulterantes, quando aplicável  "
+                            },
+                            {
+                               "Label":"XII",
+                               "Order":12,
+                               "Text":"pesquisa de matérias estranhas, quando aplicável"
+                            },
+                            {
+                               "Label":"XIII",
+                               "Order":13,
+                               "Text":"qualquer outro teste adicional de acordo com a monografia geral ou monografias específicas da Farmacopeia para a o material de partida de origem vegetal, quando aplicável. "
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 23",
+                         "Order":5,
+                         "Text":" Qualquer tratamento usado para reduzir a contaminação fúngica, microbiana ou outra infestação deve ser documentado.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"Especificações e procedimentos incluindo detalhes do processo, testes e limites de resíduos devem estar disponíveis."
+                            }
+                         ]
+                      }
+                   ]
+                },
+                {
+                   "Label":"Subseção II",
+                   "Order":2,
+                   "Text":"Das instruções de fabricação.",
+                   "Children":[
+                      {
+                         "Label":"Art. 24",
+                         "Order":1,
+                         "Text":" As instruções de fabricação devem descrever as diferentes operações realizadas na droga vegetal, tais como limpeza, secagem, trituração e peneiração, incluindo os tempos e temperaturas de secagem, e os métodos usados para controlar o tamanho de corte ou tamanho de partícula."
+                      },
+                      {
+                         "Label":"Art. 25",
+                         "Order":2,
+                         "Text":" Deve haver instruções escritas e registros que assegurem que cada recipiente de droga vegetal foi cuidadosamente examinado para detectar qualquer adulteração/substituição ou presença de corpos estranhos, como pedaços de metal ou vidro, partes de animais ou excrementos, pedras, areia, entre outros, além de sinais de deterioração e decomposição."
+                      },
+                      {
+                         "Label":"Art. 26",
+                         "Order":3,
+                         "Text":" As instruções de fabricação devem descrever a tamisação de segurança ou outros métodos de remoção de materiais estranhos e procedimentos apropriados para limpeza/seleção do material vegetal antes do seu armazenamento como droga vegetal aprovada ou antes do início da fabricação."
+                      },
+                      {
+                         "Label":"Art. 27",
+                         "Order":4,
+                         "Text":" Para a fabricação de derivados vegetais, as instruções devem incluir detalhes do solvente, tempo e temperaturas de extração, detalhes de quaisquer etapas de concentração e métodos usados."
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção III",
+             "Order":3,
+             "Text":"Do controle de qualidade",
+             "Children":[
+                {
+                   "Label":"Subseção I",
+                   "Order":1,
+                   "Text":"Da amostragem",
+                   "Children":[
+                      {
+                         "Label":"Art. 28",
+                         "Order":1,
+                         "Text":" Considerando que as matérias-primas vegetais são de natureza heterogênea, a amostragem deve ser realizada por pessoa devidamente capacitada e com procedimento adequado onde cada lote deve ser identificado por sua própria documentação."
+                      },
+                      {
+                         "Label":"Art. 29",
+                         "Order":2,
+                         "Text":" Uma amostra de referência da matéria-prima vegetal deve ser mantida, especialmente nos casos em que a droga vegetal não é descrita em Farmacopeia.",
+                         "Children":[
+                            {
+                               "Label":"Parágrafo único.",
+                               "Order":1,
+                               "Text":"São necessárias amostras não moídas da matéria-prima vegetal quando utilizada em pó no processo de fabricação subsequente."
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"Art. 30",
+                         "Order":3,
+                         "Text":" O pessoal do Controle de Qualidade deve possuir conhecimento e experiência específicos em matérias-primas vegetais e fitoterápicos para poder realizar testes de identificação e serem capazes de reconhecer adulteração, presença de crescimento fúngico, infestações ou falta de uniformidade no material bruto."
+                      },
+                      {
+                         "Label":"Art. 31",
+                         "Order":4,
+                         "Text":" A identidade e a qualidade das matérias-primas vegetais, preparações vegetais e fitoterápicos devem ser determinadas em conformidade com as diretrizes nacionais ou internacionais em vigor sobre qualidade e especificações dos fitoterápicos e, se for caso, às monografias de farmacopeias específicas."
+                      }
+                   ]
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO IV",
+       "Text":"DAS DISPOSIÇÕES FINAIS",
+       "Order":4,
+       "Children":[
+          {
+             "Label":"Art. 32",
+             "Order":1,
+             "Text":" O descumprimento das disposições contidas nesta Instrução Normativa constitui infração sanitária, nos termos da Lei nº. 6.437, de 20 de agosto de 1977, sem prejuízo das responsabilidades civil, administrativa e penal cabíveis."
+          },
+          {
+             "Label":"Art. 33",
+             "Order":2,
+             "Text":" Esta Instrução Normativa entra em vigor 45 (quarenta e cinco) dias após sua publicação."
+          }
+       ]
+    }
+ ]

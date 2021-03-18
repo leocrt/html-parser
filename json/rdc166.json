@@ -1,0 +1,1226 @@
+[
+    {          
+       "Label":"CAPÍTULO I",
+       "Text":"DAS DISPOSIÇÕES INICIAIS",
+       "Order":1,
+       "Children":[
+          {
+             "Label":"Seção I",
+             "Order":1,
+             "Text":"Objetivo",
+             "Children":[
+                {
+                   "Label":"Art. 1",
+                   "Order":1,
+                   "Text":" Esta Resolução estabelece critérios para a validação de métodos analíticos.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"O não atendimento a qualquer critério disposto nesta Resolução deve ser tecnicamente justificado e será objeto de análise pela Anvisa."
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção II",
+             "Order":2,
+             "Text":"Abrangência",
+             "Children":[
+                {
+                   "Label":"Art. 2",
+                   "Order":1,
+                   "Text":" Esta Resolução é aplicável a métodos analíticos empregados em insumos farmacêuticos, medicamentos e produtos biológicos em todas as suas fases de produção.",
+                   "Children":[
+                      {
+                         "Label":"§ 1",
+                         "Order":1,
+                         "Text":"Os parâmetros de validação e seus respectivos critérios de aceitação devem ser definidos de acordo com as características do analito e da natureza do método."
+                      },
+                      {
+                         "Label":"§ 2",
+                         "Order":2,
+                         "Text":"Métodos analíticos aplicados aos produtos sob investigação utilizados em ensaios clínicos devem ter sua adequabilidade demonstrada de acordo com esta Resolução, conforme aplicável para cada fase de desenvolvimento clínico.",
+                         "Children":[
+                            {
+                               "Label":"I",
+                               "Order":1,
+                               "Text":"A utilização de abordagem alternativa deve ser tecnicamente justificada baseada em referências científicas reconhecidas. "
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"§ 3",
+                         "Order":3,
+                         "Text":" Será admitida a utilização de abordagens alternativas para a validação de métodos analíticos aplicados aos produtos biológicos, como ensaios biológicos e imunológicos"
+                      },
+                      {
+                         "Label":"§ 4",
+                         "Order":4,
+                         "Text":" Estão excluídos desta Resolução os métodos microbiológicos, para os quais deve ser apresentada justificativa técnica para a abordagem escolhida, baseada na Farmacopeia Brasileira ou em outros compêndios oficiais reconhecidos pela Anvisa."
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção III",
+             "Order":3,
+             "Text":"Definições",
+             "Children":[
+                {
+                   "Label":"Art. 3",
+                   "Order":1,
+                   "Text":"Para efeitos desta Resolução, são adotadas as seguintes definições:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"amostra: quantidade representativa de insumo farmacêutico, produto intermediário ou produto terminado, devidamente identificada, dentro do prazo de validade estabelecido "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"analito: substância ou conjunto de substâncias de interesse que se pretende identificar ou quantificar "
+                      },
+                      {
+                         "Label":"III",
+                         "Order":3,
+                         "Text":"caracterização de substância química: é o conjunto de ensaios que garante inequivocamente a autenticidade e qualidade da substância, no que se refere a sua identidade, pureza, teor e potência, devendo incluir dados obtidos a partir de técnicas aplicáveis à caracterização de cada substância como, por exemplo, termogravimetria, ponto de fusão, calorimetria exploratória diferencial, espectroscopia no infravermelho, espectrometria de massas, ressonância magnética nuclear, análise elementar (carbono/hidrogênio/nitrogênio), difração de raio X, rotação óptica, ensaios cromatográficos, entre outras "
+                      },
+                      {
+                         "Label":"IV",
+                         "Order":4,
+                         "Text":"corrida analítica: conjunto de medições efetuadas em um grupo de amostras em intervalo de tempo pré-determinado, sob as mesmas condições de repetibilidade, tais como método, analista, instrumentação, local e condições de utilização "
+                      },
+                      {
+                         "Label":"V",
+                         "Order":5,
+                         "Text":"efeito matriz: efeito dos componentes da matriz na resposta analítica "
+                      },
+                      {
+                         "Label":"VI",
+                         "Order":6,
+                         "Text":"ensaio: operação técnica que consiste na determinação de uma ou mais características de um dado insumo ou produto, de acordo com um método especificado "
+                      },
+                      {
+                         "Label":"VII",
+                         "Order":7,
+                         "Text":"ensaio limite: ensaios que permitem verificar se a quantidade do analito está acima ou abaixo de um nível previamente estabelecido, sem o quantificar com exatidão "
+                      },
+                      {
+                         "Label":"VIII-",
+                         "Order":8,
+                         "Text":"fator resposta: razão entre sinal analítico e concentração do analito "
+                      },
+                      {
+                         "Label":"IX",
+                         "Order":9,
+                         "Text":"fator resposta relativo: razão entre dois fatores resposta, que é usada como correção no cálculo da concentração de uma substância quando essa é medida por meio da resposta analítica de outra "
+                      },
+                      {
+                         "Label":"X",
+                         "Order":10,
+                         "Text":"gerenciamento da qualidade: é o que determina a implementação da \"Política da Qualidade\", ou seja, as intenções e diretrizes globais relativas à qualidade, formalmente expressa e autorizada pela administração superior da empresa"
+                      },
+                      {
+                         "Label":"XI",
+                         "Order":11,
+                         "Text":"impurezas: qualquer componente presente no insumo farmacêutico ou no produto terminado que não seja o insumo farmacêutico ativo nem o(s) excipiente(s) "
+                      },
+                      {
+                         "Label":"XII",
+                         "Order":12,
+                         "Text":"insumo farmacêutico: qualquer substância que compõe a formulação de uma forma farmacêutica "
+                      },
+                      {
+                         "Label":"XIII",
+                         "Order":13,
+                         "Text":"insumo farmacêutico ativo (IFA): insumo farmacêutico que, quando administrado a um paciente, atua como componente ativo, podendo exercer atividade farmacológica ou efeito direto no diagnóstico, cura, tratamento ou prevenção de uma doença ou ainda afetar a estrutura e funcionamento do organismo humano "
+                      },
+                      {
+                         "Label":"XIV",
+                         "Order":14,
+                         "Text":"matriz complexa: aquela que contém um número indefinido de substâncias não monitoradas, que não podem ser obtidas sem a presença do analito "
+                      },
+                      {
+                         "Label":"XV",
+                         "Order":15,
+                         "Text":"matriz: composição que mimetiza a amostra sem a presença do analito "
+                      },
+                      {
+                         "Label":"XVI",
+                         "Order":16,
+                         "Text":"produtos sob investigação: medicamento experimental, placebo, comparador ativo ou qualquer outro produto a ser utilizado no ensaio clínico "
+                      },
+                      {
+                         "Label":"XVII",
+                         "Order":17,
+                         "Text":"pureza cromatográfica: ausência de interferência no sinal cromatográfico do analito "
+                      },
+                      {
+                         "Label":"XVIII",
+                         "Order":18,
+                         "Text":"pureza de pico: homogeneidade espectral de um pico cromatográfico, indicativa de sua pureza cromatográfica, sendo que os critérios para concluir se existe homogeneidade espectral e os parâmetros adotados para o cálculo da pureza são definidos conforme previamente estabelecido para o software utilizado ou por meio de avaliação técnica cientificamente embasada "
+                      },
+                      {
+                         "Label":"XIX",
+                         "Order":19,
+                         "Text":"relatório de validação: documento no qual os procedimentos, registros, resultados e avaliação da validação são consolidados e sumarizados "
+                      },
+                      {
+                         "Label":"XX",
+                         "Order":20,
+                         "Text":"revalidação de método analítico: repetição parcial ou total da validação de um método analítico para assegurar que esse continua cumprindo com os requisitos estabelecidos "
+                      },
+                      {
+                         "Label":"XXI",
+                         "Order":21,
+                         "Text":"substância química de referência (SQR): substância ou mistura de substâncias químicas ou biológicas com alto grau de pureza, cuidadosamente caracterizada para assegurar sua identidade, qualidade, teor e potência incluindo-se substância química de referência caracterizada e substância química de referência farmacopeica "
+                      },
+                      {
+                         "Label":"XXII",
+                         "Order":22,
+                         "Text":"substância química de referência caracterizada (SQC): substância ou mistura de substâncias químicas ou biológicas em que a identidade, a qualidade, a pureza, o teor e a potência tenham sido assegurados por um processo de caracterização "
+                      },
+                      {
+                         "Label":"XXIII",
+                         "Order":23,
+                         "Text":"substância química de referência farmacopeica (SQF): substância ou mistura de substâncias químicas ou biológicas estabelecida e distribuída por compêndios oficiais reconhecidos pela Anvisa"
+                      },
+                      {
+                         "Label":"XXIV",
+                         "Order":24,
+                         "Text":"substância química de trabalho (SQT): substância ou mistura de substâncias químicas ou biológicas utilizada na rotina laboratorial, padronizada a partir de uma substância química de referência farmacopeica ou, na ausência dessa, a partir de uma substância química de referência caracterizada, sendo rastreável à SQR utilizada para a sua padronização "
+                      },
+                      {
+                         "Label":"XXV",
+                         "Order":25,
+                         "Text":"transferência de método: processo documentado que qualifica um laboratório (unidade receptora) para o uso de um método analítico proveniente de outro laboratório (unidade de transferência), assegurando que a unidade receptora possui conhecimento e está apta para executar o método analítico de acordo com a finalidade pretendida "
+                      },
+                      {
+                         "Label":"XXVI",
+                         "Order":26,
+                         "Text":"validação analítica: é a avaliação sistemática de um método por meio de ensaios experimentais de modo a confirmar e fornecer evidências objetivas de que os requisitos específicos para seu uso pretendido são atendidos "
+                      },
+                      {
+                         "Label":"XXVII",
+                         "Order":27,
+                         "Text":"validação parcial: demonstração, por meio de alguns parâmetros de validação, que o método analítico previamente validado tem as características necessárias para obtenção de resultados com a qualidade exigida, nas condições em que é praticado e "
+                      },
+                      {
+                         "Label":"XXVIII",
+                         "Order":28,
+                         "Text":"verificação de sistema ( system suitability ): procedimento a ser realizado previamente a uma corrida analítica para demonstrar que o sistema está apto para o uso pretendido, sendo que os parâmetros desse procedimento devem ser definidos durante o desenvolvimento e validação do método. "
+                      }
+                   ]
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO II",
+       "Text":"DAS DISPOSIÇÕES GERAIS",
+       "Order":2,
+       "Children":[
+          {
+             "Label":"Art. 4",
+             "Order":1,
+             "Text":" A validação deve demonstrar que o método analítico produz resultados confiáveis e é adequado à finalidade a que se destina, de forma documentada e mediante critérios objetivos."
+          },
+          {
+             "Label":"Art. 5",
+             "Order":2,
+             "Text":" A utilização de método analítico não descrito em compêndio oficial reconhecido pela Anvisa requer a realização de uma validação analítica, conforme parâmetros estabelecidos nesta resolução, levando-se em consideração as condições técnico-operacionais."
+          },
+          {
+             "Label":"Art. 6",
+             "Order":3,
+             "Text":" Os parâmetros típicos a serem considerados para a validação dependem do ensaio a ser realizado e estão dispostos no Quadro 1 do anexo I"
+          },
+          {
+             "Label":"Art. 7",
+             "Order":4,
+             "Text":" Os métodos analíticos compendiais devem ter sua adequabilidade demonstrada ao uso pretendido, nas condições operacionais do laboratório, por meio da apresentação de um estudo de validação parcial.",
+             "Children":[
+                {
+                   "Label":"Parágrafo único.",
+                   "Order":1,
+                   "Text":"O disposto no caput exclui métodos gerais compendiais básicos como medida de pH, perda por secagem, cinzas sulfatadas, umidade, desintegração, entre outros, e os métodos analíticos descritos em monografias individuais compendiais de insumos farmacêuticos não ativos."
+                }
+             ]
+          },
+          {
+             "Label":"Art. 8",
+             "Order":5,
+             "Text":" A validação parcial deve avaliar, pelo menos, os parâmetros de precisão, exatidão e seletividade.",
+             "Children":[
+                {
+                   "Label":"§ 1",
+                   "Order":1,
+                   "Text":" No caso de métodos analíticos destinados à quantificação de impurezas, a validação parcial deve incluir o limite de quantificação."
+                },
+                {
+                   "Label":"§ 2",
+                   "Order":2,
+                   "Text":" No caso de ensaio limite, em substituição aos parâmetros do caput, devem ser avaliados os parâmetros de seletividade e de limite de detecção."
+                }
+             ]
+          },
+          {
+             "Label":"Art. 9",
+             "Order":6,
+             "Text":" No caso de transferência de método entre laboratórios, esse será considerado validado, desde que seja realizado um estudo de validação parcial nas dependências do laboratório receptor.",
+             "Children":[
+                {
+                   "Label":"§ 1",
+                   "Order":1,
+                   "Text":" A transferência de método entre laboratórios com o mesmo sistema de gerenciamento da qualidade pode ser realizada por meio de um estudo de validação parcial, nos termos do art. 8, ou pela avaliação da reprodutibilidade."
+                },
+                {
+                   "Label":"§2",
+                   "Order":2,
+                   "Text":" Outra abordagem poderá ser aceita, mediante justificativa e apresentação de protocolo e relatório de transferência, baseada em análise de risco e considerando a experiência prévia, o conhecimento da unidade receptora, a complexidade do produto e do método e as especificações, além de outros aspectos relevantes aplicáveis."
+                },
+                {
+                   "Label":"§3",
+                   "Order":3,
+                   "Text":" Caso a transferência também utilize testes comparativos, a semelhança nos resultados deverá ser comprovada por meio de ferramenta estatística."
+                },
+                {
+                   "Label":"§4",
+                   "Order":4,
+                   "Text":" A documentação de transferência do método deve ser apresentada contendo a cópia do relatório de validação do método transferido, como prova de que esse foi originalmente validado em conformidade com normas e regulamentos específicos aprovados/referendados pela Anvisa."
+                },
+                {
+                   "Label":"§5",
+                   "Order":5,
+                   "Text":" No caso de transferência de métodos já aprovados pela Anvisa, deverá ser enviada cópia do relatório de validação aprovado ou indicação do número de expediente da petição na qual foi protocolada a versão final do referido relatório."
+                }
+             ]
+          },
+          {
+             "Label":"Art. 10",
+             "Order":7,
+             "Text":" Uma revalidação de método analítico pode considerar as seguintes circunstâncias: I- alterações na síntese ou obtenção do IFA II- alterações na composição do produto III- alterações no método analítico e Ministério da Saúde - MS Agência Nacional de Vigilância Sanitária - ANVISA Este texto não substitui o(s) publicado(s) em Diário Oficial da União. IV- outras alterações que possam impactar significativamente no método validado.",
+             "Children":[
+                {
+                    "Label":"I",
+                    "Order":1,
+                    "Text":"alterações na síntese ou obtenção do IFA;"
+                },
+                {
+                    "Label":"II",
+                    "Order":2,
+                    "Text":"alterações na composição do produto;"
+                },
+                {
+                    "Label":"III",
+                    "Order":3,
+                    "Text":"alterações no método analítico; e"
+                },
+                {
+                    "Label":"IV",
+                    "Order":4,
+                    "Text":"outras alterações que possam impactar significativamente no método validado."
+                },
+                {
+                   "Label":"Parágrafo único.",
+                   "Order":5,
+                   "Text":"Os parâmetros de validação a serem avaliados dependem da natureza das alterações realizadas."
+                }
+             ]
+          },
+          {
+             "Label":"Art. 11",
+             "Order":8,
+             "Text":"Deve ser realizada a verificação de sistema a cada corrida analítica."
+          },
+          {
+             "Label":"Art. 12",
+             "Order":9,
+             "Text":"Os documentos da validação e da validação parcial apresentados devem descrever os procedimentos, os parâmetros analíticos, os critérios de aceitação e os resultados, com detalhamento suficiente para possibilitar sua reprodução e, quando aplicável, sua avaliação estatística."
+          },
+          {
+             "Label":"Art. 13",
+             "Order":10,
+             "Text":"O relatório de validação a ser protocolado, conforme resoluções de registro e pós-registro, deve conter os dados e cálculos obtidos durante a condução da validação analítica, bem como a abordagem estatística utilizada para a avaliação dos dados.",
+             "Children":[
+                {
+                   "Label":"§ 1",
+                   "Order":1,
+                   "Text":" Os dados brutos relacionados ao parâmetro de seletividade devem fazer parte do relatório mencionado no caput."
+                },
+                {
+                   "Label":"§ 2",
+                   "Order":2,
+                   "Text":" Os dados brutos relacionados aos demais parâmetros devem estar disponíveis na empresa para avaliação mediante solicitação da Anvisa."
+                }
+             ]
+          }
+       ]
+    },
+    {
+        "Label":"CAPÍTULO III",
+        "Text":"DAS SUBSTÂNCIAS QUÍMICAS DE REFERÊNCIA",
+        "Order":3,
+        "Children":[
+          {
+             "Label":"Art. 14",
+             "Order":1,
+             "Text":"Na validação de métodos analíticos, deverá ser utilizada Substância Química de Referência Farmacopeica (SQF) oficializada pela Farmacopeia Brasileira, preferencialmente, ou por outros compêndios oficialmente reconhecidos pela Anvisa.",
+             "Children":[
+                {
+                   "Label":"§ 1",
+                   "Order":1,
+                   "Text":"Será admitido o uso de Substância Química de Referência Caracterizada (SQC), mediante a apresentação de relatório de caracterização conclusivo para o lote em estudo, incluindo as razões técnicas para escolha dos ensaios utilizados e os dados brutos pertinentes."
+                },
+                {
+                   "Label":"§ 2",
+                   "Order":2,
+                   "Text":"A Anvisa e os integrantes do Sistema Nacional de Vigilância Sanitária poderão requerer amostras da SQC para fins de avaliação do processo de caracterização nas hipóteses do parágrafo anterior e, quando da necessidade de realização de análise fiscal, deverá ser fornecida amostra da SQC para fins de realização dos testes necessários."
+                }
+             ]
+          },
+          {
+             "Label":"Art. 15",
+             "Order":2,
+             "Text":"O relatório de caracterização, a depender do analito, deve conter os dados obtidos a partir de técnicas aplicáveis à caracterização de cada substância química como, por exemplo, termogravimetria, ponto de fusão, calorimetria exploratória diferencial, espectroscopia no infravermelho, espectrometria de massas, ressonância magnética nuclear, análise elementar (carbono/hidrogênio/nitrogênio), difração de raio X, rotação óptica, métodos cromatográficos, entre outras.",
+             "Children":[
+                {
+                   "Label":"§ 1",
+                   "Order":1,
+                   "Text":"Além dos dados de caracterização, devem ser incluídas no relatório as seguintes informações:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"número e validade do lote da substância utilizado na caracterização "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":" denominação comum brasileira ou denominação comum internacional "
+                      },
+                      {
+                         "Label":"III",
+                         "Order":3,
+                         "Text":"n° CAS "
+                      },
+                      {
+                         "Label":"IV",
+                         "Order":4,
+                         "Text":"nome químico "
+                      },
+                      {
+                         "Label":"V",
+                         "Order":5,
+                         "Text":"sinonímia "
+                      },
+                      {
+                         "Label":"VI",
+                         "Order":6,
+                         "Text":"fórmula molecular e estrutural "
+                      },
+                      {
+                         "Label":"VII",
+                         "Order":7,
+                         "Text":"peso molecular "
+                      },
+                      {
+                         "Label":"VIII",
+                         "Order":8,
+                         "Text":"forma física "
+                      },
+                      {
+                         "Label":"IX",
+                         "Order":9,
+                         "Text":"propriedades físico-químicas "
+                      },
+                      {
+                         "Label":"X",
+                         "Order":10,
+                         "Text":"perfil de impurezas "
+                      },
+                      {
+                         "Label":"XI",
+                         "Order":11,
+                         "Text":"cuidados de manipulação e conservação, e "
+                      },
+                      {
+                         "Label":"XII",
+                         "Order":12,
+                         "Text":"laudo analítico comprovando a identidade, teor e validade da SQC. "
+                      }
+                   ]
+                },
+                {
+                   "Label":"§ 2",
+                   "Order":2,
+                   "Text":"Para produtos biológicos, a caracterização do material/padrão de referência deve ser realizada utilizando métodos do estado da arte apropriados."
+                }
+             ]
+          },
+          {
+             "Label":"Art. 16",
+             "Order":3,
+             "Text":"Para gases medicinais, a verificação analítica de instrumentos e as determinações analíticas devem ser conduzidas utilizando materiais de referência rastreáveis, distribuídos por institutos de metrologia ou por órgãos reconhecidos como produtores de materiais de referência certificados.",
+             "Children":[
+                {
+                   "Label":"Parágrafo único.",
+                   "Order":1,
+                   "Text":"Na ausência de materiais de referência, podem ser utilizados padrões internos produzidos de acordo com guias e registros bibliográficos."
+                }
+             ]
+          },
+          {
+             "Label":"Art. 17",
+             "Order":4,
+             "Text":"Para produtos biológicos, os termos material/padrão substituem o termo substância química nas definições de SQR, SQF, SQC e SQT."
+          },
+          {
+             "Label":"Art. 18",
+             "Order":5,
+             "Text":"Não é admitida a utilização de SQT para fins de validação de método analítico."
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO IV",
+       "Text":"DOS PARÂMETROS DA VALIDAÇÃO ANALÍTICA",
+       "Order":4,
+       "Children":[
+          {
+             "Label":"Seção I",
+             "Order":1,
+             "Text":"Da Seletividade",
+             "Children":[
+                {
+                   "Label":"Art. 19",
+                   "Order":1,
+                   "Text":"A seletividade do método analítico deve ser demonstrada por meio da sua capacidade de identificar ou quantificar o analito de interesse, inequivocamente, na presença de componentes que podem estar presentes na amostra, como impurezas, diluentes e componentes da matriz.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"No caso de métodos cromatográficos, deve ser comprovada a pureza cromatográfica do sinal do analito, exceto para produtos biológicos."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 20",
+                   "Order":2,
+                   "Text":"Nos métodos de identificação, deve ser demonstrada sua capacidade de obter resultado positivo para amostra contendo o analito e resultado negativo para outras substâncias presentes na amostra.",
+                   "Children":[
+                      {
+                         "Label":"§1",
+                         "Order":1,
+                         "Text":" Deve ser utilizada a SQR na comparação com a resposta obtida para o analito nos termos do Capítulo III"
+                      },
+                      {
+                         "Label":"§2",
+                         "Order":2,
+                         "Text":" Para demonstrar a seletividade dos métodos de identificação, os ensaios devem ser aplicados a substâncias estruturalmente semelhantes ao analito, sendo o critério de aceitação a obtenção de resultado negativo."
+                      },
+                      {
+                         "Label":"§3",
+                         "Order":3,
+                         "Text":" Para insumos farmacêuticos ativos de origem vegetal e medicamentos que os contenham, deve-se demonstrar a capacidade do método de distinguir o material de interesse de outras espécies vegetais semelhantes, principalmente aquelas que possam estar presentes como adulterantes ou substituintes."
+                      },
+                      {
+                         "Label":"§4",
+                         "Order":4,
+                         "Text":" Para atingir o nível necessário de seletividade, pode ser necessária a combinação de dois ou mais métodos analíticos de identificação."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 21",
+                   "Order":3,
+                   "Text":"Para métodos quantitativos e ensaios limite, a seletividade deve ser demonstrada por meio da comprovação de que a resposta analítica se deve exclusivamente ao analito, sem interferência do diluente, da matriz, de impurezas ou de produtos de degradação.",
+                   "Children":[
+                      {
+                         "Label":"§1",
+                         "Order":1,
+                         "Text":" Para demonstrar ausência de interferência de produtos de degradação, é necessário expor a amostra a condições de degradação em ampla faixa de pH, de oxidação, de calor e de luz."
+                      },
+                      {
+                         "Label":"§2",
+                         "Order":2,
+                         "Text":" Ficam isentos da demonstração descrita no §1 os seguintes casos:",
+                         "Children":[
+                            {
+                               "Label":"I",
+                               "Order":1,
+                               "Text":"produtos para os quais já foi demonstrada adequação à resolução que e stabelece parâmetros para a notificação, identificação e qualificação de produtos de degradação em medicamentos. "
+                            },
+                            {
+                               "Label":"II",
+                               "Order":2,
+                               "Text":"métodos de desempenho "
+                            },
+                            {
+                               "Label":"III",
+                               "Order":3,
+                               "Text":"métodos não cromatográficos. "
+                            }
+                         ]
+                      },
+                      {
+                         "Label":"§3",
+                         "Order":3,
+                         "Text":" A utilização de método com limitação técnica para seletividade, nos termos do caput, apenas é aceita mediante justificativa técnica e aplicação conjunta de outro método complementar."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 22",
+                   "Order":4,
+                   "Text":"Para gases medicinais, a seletividade deve ser demonstrada comparando- se o resultado da leitura da amostra com a resposta da leitura da SQR nos termos do capítulo III",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"O valor máximo de uma possível interferência deve ser justificado."
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção II",
+             "Order":2,
+             "Text":"Da Linearidade",
+             "Children":[
+                {
+                   "Label":"Art. 23",
+                   "Order":1,
+                   "Text":"A linearidade de um método deve ser demonstrada por meio da sua capacidade de obter respostas analíticas diretamente proporcionais à concentração de um analito em uma amostra."
+                },
+                {
+                   "Label":"Art. 24",
+                   "Order":2,
+                   "Text":"Uma relação linear deve ser avaliada em toda a faixa estabelecida para o método."
+                },
+                {
+                   "Label":"Art. 25",
+                   "Order":3,
+                   "Text":"Para o estabelecimento da linearidade, deve-se utilizar, no mínimo, 5 (cinco) concentrações diferentes da SQR para as soluções preparadas em, no mínimo, triplicata.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"As soluções utilizadas para avaliação da linearidade devem ser preparadas de maneira independente, podendo ser utilizadas soluções diluídas de uma mesma solução mãe da SQR."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 26",
+                   "Order":4,
+                   "Text":"Todos os cálculos para a avaliação da linearidade devem ser realizados a partir dos dados de concentrações reais e respostas analíticas individuais."
+                },
+                {
+                   "Label":"Art. 27",
+                   "Order":5,
+                   "Text":"Para avaliação da linearidade, devem ser apresentados os seguintes dados:",
+                   "Children":[
+                        {
+                            "Label":"I",
+                            "Order":1,
+                            "Text":"representação gráfica das respostas em função da concentração do analito;"
+                        },
+                        {
+                            "Label":"II",
+                            "Order":2,
+                            "Text":"gráfico de dispersão dos resíduos, acompanhado de sua avaliação estatística;"
+                        },
+                        {
+                            "Label":"III",
+                            "Order":3,
+                            "Text":"equação da reta de regressão de y em x, estimada pelo método dos mínimos quadrados;"
+                        },
+                        {
+                            "Label":"IV",
+                            "Order":4,
+                            "Text":"avaliação da associação linear entre as variáveis por meio do coeficientes de correlação (r) e de determinação (r²); "
+                        },
+                        {
+                            "Label":"V",
+                            "Order":5,
+                            "Text":"avaliação da significância do coeficiente angular."
+                        },
+                        {
+                            "Label":"§ 1",
+                            "Order":6,
+                            "Text":" A homocedasticidade dos dados deve ser investigada para a utilização do modelo adequado."
+                        },
+                        {
+                            "Label":"§ 2",
+                            "Order":7,
+                            "Text":" Nos testes estatísticos, deve ser utilizado um nível de significância de 5% (cinco por cento)."
+                        },
+                        {
+                            "Label":"§ 3",
+                            "Order":8,
+                            "Text":" O coeficiente de correlação deve estar acima de 0,990."
+                        },
+                        {
+                            "Label":"§ 4",
+                            "Order":9,
+                            "Text":" O coeficiente angular deve ser significativamente diferente de zero."
+                        }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção III",
+             "Order":3,
+             "Text":"Do Efeito Matriz",
+             "Children":[
+                {
+                   "Label":"Art. 28",
+                   "Order":1,
+                   "Text":"O disposto nesta seção se aplica a matrizes complexas."
+                },
+                {
+                   "Label":"Art. 29",
+                   "Order":2,
+                   "Text":"O efeito matriz deve ser determinado por meio da comparação entre os coeficientes angulares das curvas de calibração construídas com a SQR do analito em solvente e com a amostra fortificada com a SQR do analito.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"As curvas devem ser estabelecidas da mesma forma que na linearidade para os mesmos níveis de concentração, utilizando, no mínimo, 5 (cinco) concentrações diferentes em, no mínimo, triplicata."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 30",
+                   "Order":3,
+                   "Text":"O paralelismo das retas é indicativo de ausência de interferência dos constituintes da matriz e a sua demonstração deve ser realizada por meio de avaliação estatística adequada.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Deve ser adotado o nível de significância de 5% (cinco por cento) no teste de hipóteses."
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção IV",
+             "Order":4,
+             "Text":"Da faixa de trabalho",
+             "Children":[
+                {
+                   "Label":"Art. 31",
+                   "Order":1,
+                   "Text":"A faixa de trabalho deve ser estabelecida a partir dos estudos de linearidade, juntamente com os resultados de precisão e exatidão, sendo dependente da aplicação pretendida."
+                },
+                {
+                   "Label":"Art. 32",
+                   "Order":2,
+                   "Text":"Devem ser consideradas as seguintes faixas de trabalho: I- para teor: de 80% (oitenta por cento) a 120% (cento e vinte por cento)  Ministério da Saúde - MS Agência Nacional de Vigilância Sanitária - ANVISA Este texto não substitui o(s) publicado(s) em Diário Oficial da União. II- para uniformidade de conteúdo: de 70% (setenta por cento) a 130% (centro e trinta por cento) III- para teste de dissolução: de -20% (menos vinte por cento) da menor concentração esperada a +20% (mais vinte por cento) da maior concentração esperada a partir do perfil de dissolução e IV- para determinação de impurezas: do limite de quantificação até 120% (cento e vinte por cento) da concentração no limite da especificação de cada impureza individual V- para determinação simultânea de teor e impurezas pelo procedimento de normalização de área: do limite de quantificação (LQ) até 120% (cento e vinte por cento) da concentração esperada da substância ativa.",
+                   "Children":[
+                        {
+                            "Label":"I",
+                            "Order":1,
+                            "Text":"para teor: de 80% (oitenta por cento) a 120% (cento e vinte por cento);"
+                        },
+                        {
+                            "Label":"II",
+                            "Order":2,
+                            "Text":"para uniformidade de conteúdo: de 70% (setenta por cento) a 130% (centro etrinta por cento)"
+                        },
+                        {
+                            "Label":"III",
+                            "Order":3,
+                            "Text":"para teste de dissolução: de -20% (menos vinte por cento) da menor concentração esperada a +20% (mais vinte por cento) da maior concentração esperada a partir do perfil de dissolução; e "
+                        },
+                        {
+                            "Label":"IV",
+                            "Order":4,
+                            "Text":"para teste de dissolução: de -20% (menos vinte por cento) da menorconcentração esperada a +20% (mais vinte por cento) da maior concentração esperada a partir do perfil de dissolução; e"
+                        },
+                        {
+                            "Label":"V",
+                            "Order":5,
+                            "Text":"para determinação simultânea de teor e impurezas pelo procedimento de normalização de área: do limite de quantificação (LQ) até 120% (cento e vinte por cento) da concentração esperada da substância ativa. "
+                        },
+                        {
+                            "Label":"§ 1",
+                            "Order":1,
+                            "Text":" Faixas de trabalho maiores que as definidas no caput poderão ser utilizadas se justificadas tecnicamente."
+                        },
+                        {
+                            "Label":"§ 2",
+                            "Order":2,
+                            "Text":" Para gases medicinais, serão aceitas faixas de trabalho alternativas desde que a abordagem para a escolha do intervalo seja justificada."
+                        }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção V",
+             "Order":5,
+             "Text":"Da Precisão",
+             "Children":[
+                {
+                   "Label":"Art. 33",
+                   "Order":1,
+                   "Text":"A precisão deve avaliar a proximidade entre os resultados obtidos por meio de ensaios com amostras preparadas conforme descrito no método analítico a ser validado."
+                },
+                {
+                   "Label":"Art. 34",
+                   "Order":2,
+                   "Text":"A precisão deve ser expressa por meio da repetibilidade, da precisão intermediária ou da reprodutibilidade."
+                },
+                {
+                   "Label":"Art. 35",
+                   "Order":3,
+                   "Text":"A precisão deve ser demonstrada pela dispersão dos resultados, calculando-se o desvio padrão relativo (DPR) da série de medições conforme a fórmula \"DPR=(DP/CMD)X100\", em que DP é o desvio padrão e CMD, a concentração média determinada."
+                },
+                {
+                   "Label":"Art. 36",
+                   "Order":4,
+                   "Text":"As amostras para avaliação da precisão devem ser preparadas de maneira independente desde o início do procedimento descrito no método.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"No caso de amostras sólidas e semissólidas, não é aceita a utilização de soluções diluídas de uma mesma solução mãe."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 37",
+                   "Order":5,
+                   "Text":"Quando a avaliação da precisão envolver contaminação da matriz com substância em quantidade muito baixa que impossibilite a pesagem direta, pode ser utilizada uma solução concentrada da substância, seguindo-se o procedimento descrito no método analítico para extração e diluição da amostra.",
+                   "Children":[
+                      {
+                         "Label":"§1",
+                         "Order":1,
+                         "Text":" No caso de impurezas conhecidas ausentes ou presentes em concentração menor que o limite da especificação na amostra, esta deve ser fortificada com concentrações conhecidas do padrão de impurezas."
+                      },
+                      {
+                         "Label":"§2",
+                         "Order":2,
+                         "Text":" No caso de impurezas desconhecidas, a amostra deve ser avaliada utilizando a resposta do ativo acrescido à matriz na concentração correspondente ao limite da especificação estabelecido para a impureza, desde que se considere o mesmo fator resposta para impureza e para o ativo."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 38",
+                   "Order":6,
+                   "Text":"A determinação da repetibilidade deve obedecer aos seguintes critérios:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"avaliar as amostras sob as mesmas condições de operação, mesmo analista e mesma instrumentação, em uma única corrida analítica. "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"utilizar, no mínimo, 9 (nove) determinações, contemplando o intervalo linear do método analítico, ou seja, 3 (três) concentrações: baixa, média e alta, com 3 (três) réplicas em cada nível ou 6 (seis) réplicas a 100% (cem por cento) da concentração do teste individualmente preparadas. "
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 39",
+                   "Order":7,
+                   "Text":"Os critérios de aceitação devem ser definidos e justificados de acordo com os seguintes aspectos:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"objetivo do método "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"variabilidade intrínseca do método "
+                      },
+                      {
+                         "Label":"III",
+                         "Order":3,
+                         "Text":"concentração de trabalho e "
+                      },
+                      {
+                         "Label":"IV",
+                         "Order":4,
+                         "Text":"concentração do analito na amostra. "
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 40",
+                   "Order":8,
+                   "Text":"A determinação da precisão intermediária deve obedecer aos seguintes critérios:",
+                   "Children":[
+                      {
+                         "Label":"I",
+                         "Order":1,
+                         "Text":"expressar a proximidade entre os resultados obtidos da análise de uma mesma amostra, no mesmo laboratório, em pelo menos dois dias diferentes, realizada por operadores distintos e "
+                      },
+                      {
+                         "Label":"II",
+                         "Order":2,
+                         "Text":"contemplar as mesmas concentrações e o mesmo número de determinações descritas na avaliação da repetibilidade. "
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 41",
+                   "Order":9,
+                   "Text":"A reprodutibilidade deve ser obtida por meio da proximidade dos resultados obtidos em laboratórios diferentes.",
+                   "Children":[
+                      {
+                         "Label":"§1",
+                         "Order":1,
+                         "Text":" A reprodutibilidade é aplicável em estudos colaborativos ou na padronização de métodos analíticos para inclusão desses em compêndios oficiais, mediante testes estatísticos adequados."
+                      },
+                      {
+                         "Label":"§2",
+                         "Order":2,
+                         "Text":" O critério de aceitação para o desvio padrão relativo deve ser justificado conforme preconizado no art. 39"
+                      }
+                   ]
+                }
+             ]
+          },
+          {
+             "Label":"Seção VI",
+             "Order":6,
+             "Text":"Da Exatidão",
+             "Children":[
+                {
+                   "Label":"Art. 42",
+                   "Order":1,
+                   "Text":"A exatidão de um método analítico deve ser obtida por meio do grau de concordância entre os resultados individuais do método em estudo em relação a um valor aceito como verdadeiro."
+                },
+                {
+                   "Label":"Art. 43",
+                   "Order":2,
+                   "Text":"A exatidão deve ser verificada a partir de, no mínimo, 9 (nove) determinações, contemplando o intervalo linear do método analítico, ou seja, 3 (três) concentrações: baixa, média e alta, com 3 (três) réplicas em cada nível."
+                },
+                {
+                   "Label":"Art. 44",
+                   "Order":3,
+                   "Text":"As amostras para avaliação da exatidão devem ser preparadas de maneira independente, podendo ser utilizadas soluções diluídas de uma mesma solução mãe da SQR."
+                },
+                {
+                   "Label":"Art. 45",
+                   "Order":4,
+                   "Text":"Para a determinação da exatidão, deve ser utilizada a abordagem mais adequada, de acordo com o método analítico em estudo: I- para IFA: a) aplicar o método proposto utilizando substância de pureza conhecida (SQR) b) comparar os resultados obtidos com aqueles resultantes de um segundo método validado, cuja exatidão tenha sido estabelecida ou c) no caso de analito em matriz complexa, realizar análise pelo método de adição de SQR no qual quantidades conhecidas de SQR são acrescentadas à amostra. II- para produto terminado: a) aplicar o método proposto na análise de uma amostra, na qual quantidade conhecida de SQR foi adicionada à matriz b) na indisponibilidade de amostras de todos os componentes do medicamento, pode ser realizada a análise pelo método de adição de SQR, no qual quantidades conhecidas de SQR são acrescidas à solução do produto terminado ou c) comparar os resultados obtidos com aqueles resultantes de um segundo método validado. III- para impurezas: a) aplicar o método de adição de padrão, no qual quantidades conhecidas de impurezas ou produtos de degradação são acrescidas à amostra b) na indisponibilidade de amostras de certas impurezas ou produtos de degradação, pode ser realizada a comparação dos resultados obtidos com um segundo método validado e a utilização do fator resposta relativo ao IFA  Ministério da Saúde - MS Agência Nacional de Vigilância Sanitária - ANVISA Este texto não substitui o(s) publicado(s) em Diário Oficial da União. c) para impurezas desconhecidas, a exatidão deve ser avaliada comparando-se a resposta da SQR do IFA ou de impureza conhecida, conforme o método proposto, em uma faixa de concentração que contemple a faixa de trabalho do método, desde que seja considerado o mesmo fator resposta.",
+                   "Children":[
+                       {
+                        "Label":"I",
+                        "Order":1,
+                        "Text":"para IFA:",
+                        "Children":[
+                            {
+                                "Label":"a)",
+                                "Order":1,
+                                "Text":"aplicar o método proposto utilizando substância de pureza conhecida (SQR);"
+                            },
+                            {
+                                "Label":"b)",
+                                "Order":2,
+                                "Text":"comparar os resultados obtidos com aqueles resultantes de um segundo método validado, cuja exatidão tenha sido estabelecida; ou"
+                            },
+                            {
+                                "Label":"c)",
+                                "Order":3,
+                                "Text":"no caso de analito em matriz complexa, realizar análise pelo método de adição de SQR no qual quantidades conhecidas de SQR são acrescentadas à amostra."
+                            }
+                        ]
+                       },
+                       {
+                        "Label":"II",
+                        "Order":2,
+                        "Text":"para produto terminado:",
+                        "Children":[
+                            {
+                                "Label":"a)",
+                                "Order":1,
+                                "Text":"aplicar o método proposto na análise de uma amostra, na qual quantidade conhecida de SQR foi adicionada à matriz;"
+                            },
+                            {
+                                "Label":"b)",
+                                "Order":2,
+                                "Text":"na indisponibilidade de amostras de todos os componentes do medicamento, pode ser realizada a análise pelo método de adição de SQR, no qual quantidades conhecidas de SQR são acrescidas à solução do produto terminado; ou"
+                            },
+                            {
+                                "Label":"c)",
+                                "Order":3,
+                                "Text":"comparar os resultados obtidos com aqueles resultantes de um segundo método validado."
+                            }
+                        ]
+                       },
+                       {
+                        "Label":"III",
+                        "Order":3,
+                        "Text":"para impurezas:",
+                        "Children":[
+                            {
+                                "Label":"a)",
+                                "Order":1,
+                                "Text":"aplicar o método de adição de padrão, no qual quantidades conhecidas de impurezas ou produtos de degradação são acrescidas à amostra;"
+                            },
+                            {
+                                "Label":"b)",
+                                "Order":2,
+                                "Text":"na indisponibilidade de amostras de certas impurezas ou produtos de degradação, pode ser realizada a comparação dos resultados obtidos com um segundo método validado e a utilização do fator resposta relativo ao IFA;"
+                            },
+                            {
+                                "Label":"c)",
+                                "Order":3,
+                                "Text":"para impurezas desconhecidas, a exatidão deve ser avaliada comparando-se a resposta da SQR do IFA ou de impureza conhecida, conforme o método proposto, em uma faixa de concentração que contemple a faixa de trabalho do método, desde que seja considerado o mesmo fator resposta."
+                            }
+                        ]
+                       },
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":4,
+                         "Text":"Em todos os casos, a forma de cálculo das concentrações dos analitos deve ser a mesma descrita no método analítico em questão."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 46",
+                   "Order":5,
+                   "Text":"A exatidão deve ser expressa pela relação percentual de recuperação do analito de concentração conhecida adicionado à amostra ou pela relação entre a concentração média, determinada experimentalmente, e a concentração teórica correspondente, dada pela fórmula 1 do Anexo II",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Quando a exatidão é determinada a partir de um método anteriormente validado, deve-se considerar, em substituição ao termo “concentração teórica”, a concentração do analito determinada por meio desse."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 47",
+                   "Order":6,
+                   "Text":"Deve ser calculado o desvio padrão relativo (DPR) para cada concentração."
+                },
+                {
+                   "Label":"Art. 48",
+                   "Order":7,
+                   "Text":"Os critérios de aceitação para percentuais de recuperação e desvio padrão relativo obtidos devem ser justificados conforme critérios preconizados no art. 39."
+                }
+             ]
+          },
+          {
+             "Label":"Seção VII",
+             "Order":7,
+             "Text":"Do Limite de Detecção",
+             "Children":[
+                {
+                   "Label":"Art. 49",
+                   "Order":1,
+                   "Text":"Limite de detecção deve ser demonstrado pela obtenção da menor quantidade do analito presente em uma amostra que pode ser detectado, porém, não necessariamente quantificado, sob as condições experimentais estabelecidas."
+                },
+                {
+                   "Label":"Art. 50",
+                   "Order":2,
+                   "Text":"A determinação do limite de detecção pode ser realizada por meio de método visual, da razão sinal-ruído, baseado na determinação do branco ou em parâmetros da curva de calibração, considerando-se as particularidades do método analítico utilizado."
+                },
+                {
+                   "Label":"Art. 51",
+                   "Order":3,
+                   "Text":"Para métodos visuais, o limite de detecção é determinado pela menor concentração para a qual é possível constatar o efeito visual esperado."
+                },
+                {
+                   "Label":"Art. 52",
+                   "Order":4,
+                   "Text":"Para métodos instrumentais, o limite de detecção pode ser determinado pela razão sinal-ruído.",
+                   "Children":[
+                      {
+                         "Label":"§1",
+                         "Order":1,
+                         "Text":" O método utilizado para determinação da razão sinal/ruído deve ser descrito e justificado."
+                      },
+                      {
+                         "Label":"§2",
+                         "Order":2,
+                         "Text":" A razão sinal-ruído deve ser maior ou igual a 2:1."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 53",
+                   "Order":5,
+                   "Text":"Para a determinação baseada em parâmetros da curva analítica, o limite de detecção pode ser calculado pela fórmula 2 do anexo II"
+                },
+                {
+                   "Label":"Art. 54",
+                   "Order":6,
+                   "Text":"Nos casos em que um valor estimado para o limite de detecção é obtido por cálculo ou extrapolação, essa estimativa deve ser confirmada conforme art. 52."
+                }
+             ]
+          },
+          {
+             "Label":"Seção VIII",
+             "Order":8,
+             "Text":"Do Limite de Quantificação",
+             "Children":[
+                {
+                   "Label":"Art. 55",
+                   "Order":1,
+                   "Text":"O limite de quantificação é a menor quantidade do analito em uma amostra que pode ser determinada com precisão e exatidão aceitáveis sob as condições experimentais estabelecidas."
+                },
+                {
+                   "Label":"Art. 56",
+                   "Order":2,
+                   "Text":"O limite de quantificação deve ser coerente com o limite de especificação da impureza.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Para produtos adequados à resolução que estabelece parâmetros para a notificação, identificação e qualificação de produtos de degradação em medicamentos, o limite de quantificação deve ser menor ou igual ao limite de notificação."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 57",
+                   "Order":3,
+                   "Text":"Para a determinação deste parâmetro deve ser seguido o mesmo procedimento descrito no art. 53, sendo que a razão sinal/ruído deve ser no mínimo de 10:1."
+                },
+                {
+                   "Label":"Art. 58",
+                   "Order":4,
+                   "Text":"Para a determinação baseada em parâmetros da curva analítica, o limite de quantificação pode ser calculado pela fórmula 3 do anexo II"
+                },
+                {
+                   "Label":"Art. 59",
+                   "Order":5,
+                   "Text":"Nos casos em que um valor estimado para o limite de quantificação é obtido por cálculo ou extrapolação, essa estimativa deve ser confirmada conforme art. 57."
+                },
+                {
+                   "Label":"Art. 60",
+                   "Order":6,
+                   "Text":"Devem ser testadas precisão e exatidão nas concentrações correspondentes ao limite de quantificação."
+                }
+             ]
+          },
+          {
+             "Label":"Seção IX",
+             "Order":9,
+             "Text":"Da Robustez",
+             "Children":[
+                {
+                   "Label":"Art. 61",
+                   "Order":1,
+                   "Text":"A robustez é um parâmetro tipicamente realizado no desenvolvimento do método analítico que indica a sua capacidade em resistir a pequenas e deliberadas variações das condições analíticas.",
+                   "Children":[
+                      {
+                         "Label":"Parágrafo único.",
+                         "Order":1,
+                         "Text":"Caso haja susceptibilidade do método a variações nas condições analíticas, essas deverão ser controladas por meio de precauções descritas no método.."
+                      }
+                   ]
+                },
+                {
+                   "Label":"Art. 62",
+                   "Order":2,
+                   "Text":"No caso de métodos quantitativos, o impacto das variações propostas nos resultados obtidos deverá ser avaliado com os mesmos critérios utilizados para a exatidão."
+                },
+                {
+                   "Label":"Art. 63",
+                   "Order":3,
+                   "Text":"No caso de métodos qualitativos, deve ser verificado se as variações propostas interferem na resposta analítica."
+                },
+                {
+                   "Label":"Art. 64",
+                   "Order":4,
+                   "Text":"Deve ser demonstrado o atendimento às características de verificação do sistema."
+                },
+                {
+                   "Label":"Art. 65",
+                   "Order":5,
+                   "Text":"A avaliação dos parâmetros descritos na Tabela 1 do anexo III deve ser contemplada no relatório de validação.",
+                   "Children":[
+                      {
+                         "Label":"§ 1",
+                         "Order":1,
+                         "Text":" Parâmetros que sejam considerados relevantes para o resultado, de acordo com as características do método, devem ser avaliados adicionalmente."
+                      },
+                      {
+                         "Label":"§ 2",
+                         "Order":2,
+                         "Text":" A ausência da avaliação de qualquer uma das variações deve ser justificada."
+                      }
+                   ]
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO V",
+       "Text":"DAS DISPOSIÇÕES TRANSITÓRIAS",
+       "Order":5,
+       "Children":[
+          {
+             "Label":"Art. 66",
+             "Order":1,
+             "Text":"Serão aceitas validações de método analítico em conformidade com a Resolução RE n 899/2003, desde que tenham sido finalizadas antes da vigência desta resolução e as petições que as contenham tenham sido protocoladas em até 550 (quinhentos e cinquenta) dias corridos após a vigência desta resolução.",
+             "Children":[
+                {
+                   "Label":"§1",
+                   "Order":1,
+                   "Text":" Em caso da necessidade de execução e reapresentação de um ou mais parâmetros da validação, desde que não seja necessária a apresentação de nova validação, a empresa poderá seguir a Resolução RE n 899, de 29 de maio, de 2003."
+                },
+                {
+                   "Label":"§2",
+                   "Order":2,
+                   "Text":" Em caso da necessidade de execução e apresentação de uma nova validação, a empresa deverá seguir esta resolução."
+                },
+                {
+                   "Label":"§3",
+                   "Order":3,
+                   "Text":" Após o prazo estabelecido no caput, para produtos sob investigação, cuja a validação do método analítico utilizado no desenvolvimento clínico tenha sido iniciada antes da vigência da presente norma, serão aceitas, no momento do registro, as validações analíticas realizadas de acordo com a Resolução RE n 899, de 29 de maio, de 2003."
+                }
+             ]
+          }
+       ]
+    },
+    {
+       "Label":"CAPÍTULO VI",
+       "Text":"DAS DISPOSIÇÕES FINAIS",
+       "Order":6,
+       "Children":[
+          {
+             "Label":"Art. 67",
+             "Order":1,
+             "Text":"Documentação e ensaios adicionais podem ser solicitados a qualquer momento pela Anvisa."
+          },
+          {
+             "Label":"Art. 68",
+             "Order":2,
+             "Text":"Todos os dados relevantes obtidos durante a condução da validação analítica, bem como as fórmulas utilizadas para cálculo, devem ser protocoladas, juntamente com a petição de interesse, para avaliação da Anvisa."
+          },
+          {
+             "Label":"Art. 69",
+             "Order":3,
+             "Text":"O descumprimento das disposições contidas nesta resolução constitui infração sanitária, nos termos da Lei n 6.437, de 20 de agosto de 1977, sem prejuízo das responsabilidades civil e penal cabíveis."
+          },
+          {
+             "Label":"Art. 70",
+             "Order":4,
+             "Text":"Fica revogada a Resolução RE n 899, de 29 de maio de 2003 o inciso XXXI do art. 1, o parágrafo único do art. 11 e o anexo I da Resolução RDC n 31, de 11 de agosto de 2010."
+          },
+          {
+             "Label":"Art. 71",
+             "Order":5,
+             "Text":"Esta Resolução entra em vigor no prazo de 180 (cento e oitenta) dias corridos contados a partir da data de sua publicação"
+          }
+       ]
+    }
+ ]
