@@ -2,9 +2,21 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: html-parser
+  description: golang-parser html version of laws
+  labels:
+    example.com/custom: custom_label_value
   annotations:
     github.com/project-slug: leocrt/html-parser
+  tags:
+    - golang
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
 spec:
   type: other
   lifecycle: unknown
   owner: guests
+  
+  
